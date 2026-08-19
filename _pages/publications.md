@@ -1,10 +1,24 @@
 ---
 title: "Publications"
 permalink: /publications/
-layout: single
-author_profile: true
-toc: true
+layout: default
+description: "Peer-reviewed publications by Lukas Michalek, spanning nanoscale metrology, soft electronics, polymer physics, and energy materials."
 ---
+
+<section class="hero-sm on-navy" style="background:var(--navy-900); color:var(--on-navy);">
+  <div class="wrap">
+    <span class="eyebrow">Publications</span>
+    <h1 style="color:#fff;">The work, in print.</h1>
+    <p class="hero-lede">Selected and complete lists of peer-reviewed publications. For citation counts and the most current list, see Google Scholar or ORCID.</p>
+    <div class="hero-actions" style="margin-top:26px;">
+      <a class="btn btn-outline-light" href="https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      <a class="btn btn-outline-light" href="https://orcid.org/0000-0002-2257-5038" target="_blank" rel="noopener">ORCID &#8599;</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap prose" markdown="1">
 
 ## 2026
 
@@ -242,3 +256,6 @@ E. Hadjixenophontos, **L. Michalek**, A. Weigel, G. Schmitz
 **[A Monolithic Hybrid Cellulose-2.5-Acetate/Polymer Bioreactor for Biocatalysis under Continuous Liquid-Liquid Conditions Using a Supported Ionic Liquid Phase](https://doi.org/10.1002/chem.201501618)**  
 B. Sandig, **L. Michalek**, S. Vlahovic, M. Antonovici, B. Hauer, M.R. Buchmeiser  
 *Chem. Eur. J.*, 2015.
+
+  </div>
+</section>

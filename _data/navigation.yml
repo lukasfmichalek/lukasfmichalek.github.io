@@ -1,9 +1,13 @@
 main:
+  - title: "About"
+    url: /about/
   - title: "Research"
     url: /research/
+  - title: "Methods"
+    url: /methods/
   - title: "Publications"
     url: /publications/
-  - title: "CV"
-    url: /cv/
+  - title: "Resources"
+    url: /resources/
   - title: "Contact"
     url: /contact/
