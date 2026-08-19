@@ -165,72 +165,68 @@ N.R. Boase, **L. Michalek**, J.P. Hooker, K.E. Fairfull-Smith
 
 **[UV-Induced Photolysis of Polyurethanes](https://doi.org/10.1039/D1CC00124H)**  
 C. Petit, J. Bachmann, **L. Michalek**, Y. Catel, E. Blasco, J. Blinco, A. Unterreiner, C. Barner-Kowollik  
-*Chem. Commun.*, 2021.
+*Chemical Communication*, 2021.
 
 **[Chain-Length-Dependent Photolysis of ortho-Nitrobenzyl-centred Polymers](https://doi.org/10.1021/acsmacrolett.1c00057)**  
 J. Bachmann, C. Petit, **L. Michalek**, Y. Catel, E. Blasco, J. Blinco, A. Unterreiner, C. Barner-Kowollik  
-*ACS Macro Lett.*, 2021.
+*ACS Macro Letters*, 2021.
 
 
 ## 2020
 
 **[Mapping Photochemical Reactivity Profiles on Surfaces](https://doi.org/10.1021/jacs.0c11485)**  
 **L. Michalek**, K. Mundsinger, T. Krappitz, S.L. Walden, L. Barner, C. Barner-Kowollik  
-*J. Am. Chem. Soc.*, 2020.
+*Journal of the Amarican Chemical Society*, 2020.
 
 **[2D Fabrication of Tuneable Responsive Interpenetrating Polymer Networks from a Single Photoresist](https://doi.org/10.1002/adfm.202005328)**  
 **L. Michalek**, S. Bialas, D.E. Marschner, T. Krappitz, M. Wegener, J. Blinco, E. Blasco, H. Frisch, C. Barner-Kowollik  
-*Adv. Funct. Mater.*, 2020.
+*Advanced Functional Materials*, 2020.
 
 **[Two Grapes Short of a Fruit Salad: Raspberry-, Strawberry-, and Seedpod-Like Organic Microspheres via Colloidal Nanotemplating](https://doi.org/10.1021/acsmacrolett.0c00688)**  
 K. Mundsinger, C.W. Schmitt, **L. Michalek**, M. Susewind, T. Hofe, C. Barner-Kowollik, L. Barner  
-*ACS Macro Lett.*, 2020.
+*ACS Macro Letters*, 2020.
 
 **[Wavelength-Selective Folding of Single Polymer Chains with Different Colors of Visible Light](https://doi.org/10.1002/marc.201900414)**  
 H. Frisch, D. Kodura, F.R. Bloesser, **L. Michalek**, C. Barner-Kowollik  
-*Macromol. Rapid Commun.*, 2020.
-
-**[Quantifying Macromolecular Growth and Hierarchical Structuring on Interfaces](https://eprints.qut.edu.au/137012/)**  
-**L. Michalek**  
-*PhD Thesis, Queensland University of Technology*, 2020.
+*Macromolecular Rapid Communication*, 2020.
 
 
 ## 2019
 
+**[The Long and the Short of Polymer Grafting](https://doi.org/10.1039/c8py01470a)**  
+**L. Michalek**, K. Mundsinger, L. Barner, C. Barner-Kowollik  
+*Polymer Chemistry*, 2019.
+
 **[Quantifying Solvent Effects on Polymer Surface Grafting](https://doi.org/10.1021/acsmacrolett.9b00336)**  
 **L. Michalek**, K. Mundsinger, L. Barner, C. Barner-Kowollik  
-*ACS Macro Lett.*, 2019.
+*ACS Macro Letters*, 2019.
 
 **[Access to Disparate Soft Matter Materials by Curing with Two Colours of Light](https://doi.org/10.1002/adma.201807288)**  
 S. Bialas, **L. Michalek**, D.E. Marschner, T. Krappitz, M. Wegener, J. Blinco, E. Blasco, H. Frisch, C. Barner-Kowollik  
-*Adv. Mater.*, 2019.
-
-**[The Long and the Short of Polymer Grafting](https://doi.org/10.1039/c8py01470a)**  
-**L. Michalek**, K. Mundsinger, L. Barner, C. Barner-Kowollik  
-*Polym. Chem.*, 2019.
+*Advanced Materials*, 2019.
 
 **[Adaptable and Reprogrammable Surfaces](https://pubmed.ncbi.nlm.nih.gov/31414512/)**  
 A.S. Goldmann, N.R. Boase, **L. Michalek**, J. Blinco, A. Welle, C. Barner-Kowollik  
-*Adv. Mater.*, 2019.
+*Advanced Materials*, 2019.
 
 
 ## 2018
 
 **[Polymer on Top: Current Limits and Future Perspectives of Quantitatively Evaluating Surface Grafting](https://doi.org/10.1002/adma.201706321)**  
 **L. Michalek**, L. Barner, C. Barner-Kowollik  
-*Adv. Mater.*, 2018.
+*Advanced Materials.*, 2018.
 
 **[A Substractive Platform for Micro-and Macroscopic 3D Printed Structures](https://doi.org/10.1002/adfm.201801405)**  
 M.M. Zieger, P. Mueller, E. Blasco, C. Petit, V. Hahn, **L. Michalek**, H. Mutlu, M. Wegener, C. Barner-Kowollik  
-*Adv. Funct. Mater.*, 2018.
+*Advanced Functtional Materials*, 2018.
 
 **[The role of Surface Oxides on Hydrogen Sorption Kinetics in Titanium Thin Films](https://ui.adsabs.harvard.edu/abs/2018ApSS..441..324H/abstract)**  
 E. Hadjixenophontos, **L. Michalek**, M. Roussel, M. Hirscher, G. Schmitz  
-*Appl. Surf. Sci.*, 2018.
+*Applied Surface Science*, 2018.
 
 **[Polyselenoureas via Multicomponent Polymerizations Using elemental selenium as monomer](https://doi.org/10.1021/acsmacrolett.8b00428)**  
 B.T. Tuten, F.R. Bloesser, D. Marshall, **L. Michalek**, C.W. Schmitt, S.J. Blanksby, C. Barner-Kowollik  
-*ACS Macro Lett.*, 2018.
+*ACS Macro Letters*, 2018.
 
 **[Engineering Nitroxide Functional Surfaces Using Bioinspired Adhesion](https://doi.org/10.1021/acs.langmuir.7b03755)**  
 H. Woehlk, J. Steinkoenig, C. Lang, **L. Michalek**, V. Trouillet, P. Krolla, A.S. Goldmann, L. Barner, J.P. Blinco, C. Barner-Kowollik, K.E. Fairfull-Smith  
@@ -238,14 +234,7 @@ H. Woehlk, J. Steinkoenig, C. Lang, **L. Michalek**, V. Trouillet, P. Krolla, A.
 
 **[Hydrogen Sorption Kinetics in MgH2 and TiH2](https://www.scientific.net/DDF.383.127)**  
 E. Hadjixenophontos, **L. Michalek**, A. Weigel, G. Schmitz  
-*Defect Diffus. Forum*, 2018.
-
-
-## 2016
-
-**Hydrogen Sorption Kinetics in Titanium Hydride Thin Films**  
-**L. Michalek**  
-*Master's Thesis, University of Stuttgart*, 2016.
+*Defect Diffusion Forum*, 2018.
 
 
 ## 2015
@@ -253,10 +242,3 @@ E. Hadjixenophontos, **L. Michalek**, A. Weigel, G. Schmitz
 **[A Monolithic Hybrid Cellulose-2.5-Acetate/Polymer Bioreactor for Biocatalysis under Continuous Liquid-Liquid Conditions Using a Supported Ionic Liquid Phase](https://doi.org/10.1002/chem.201501618)**  
 B. Sandig, **L. Michalek**, S. Vlahovic, M. Antonovici, B. Hauer, M.R. Buchmeiser  
 *Chem. Eur. J.*, 2015.
-
-
-## 2014
-
-**Monolithische Zellulose-Polymer-Hybridmaterialien für die kontinuierliche Biokatalyse**  
-**L. Michalek**  
-*Bachelor's Thesis, University of Stuttgart*, 2014.
