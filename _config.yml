@@ -27,8 +27,8 @@ repository: "lukasfmichalek/lukasfmichalek.github.io"
  
 github_username: lukasfmichalek
  
-minimal_mistakes_skin: "air"   # try: default, air, contrast, mint, sunrise, neon, dirt
-search: true
+minimal_mistakes_skin: "dirt"   # try: default, air, contrast, mint, sunrise, neon, dirt
+search: false
 
 # Build settings
 markdown: kramdown
@@ -74,7 +74,7 @@ author:
       url: "mailto:lukasmi@stanford.edu.com"          
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en&oi=ao"   
+      url: "https://https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en"   
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-2257-5038"              
