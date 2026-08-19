@@ -65,8 +65,8 @@ plugins:
 
 author:
   name        : Lukas Michalek
-  avatar      : "/assets/images/LFM-Headshot.jpg"   # replace this file in Part 8
-  bio         : "Postdoctoral researcher, Bao Group, Stanford University. Building instruments that measure what was previously inferred."
+  avatar      : "/assets/images/LFM-Headshot.jpg" 
+  bio         : "Research Scientist, Bao Group & nano@stanford, Stanford University. Building instruments and methods to understand and change the small."
   location    : "Stanford, CA"
   links:
     - label: "Email"
