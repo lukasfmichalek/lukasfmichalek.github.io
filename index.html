@@ -1,7 +1,86 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: default
+title: ""
+description: "Nanoscale characterization of soft matter and soft electronic materials — AFM, AFM-IR, and multi-modal metrology, from the Bao Group and nano@Stanford."
+permalink: /
 ---
+
+<section class="hero on-navy">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Bao Group &middot; nano@Stanford</span>
+      <h1>{{ site.title }}</h1>
+      <p class="hero-lede">{{ site.description }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore the research &rarr;</a>
+        <a class="btn btn-outline-light" href="{{ '/publications/' | relative_url }}">View publications</a>
+        <a class="btn-text" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      {% include art/scan.html %}
+      <span class="hero-art-caption">AFM &middot; AFM-IR &middot; Soft Matter Metrology</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="card-grid">
+      <a class="card card-dark" href="{{ '/research/' | relative_url }}" style="text-decoration:none;">
+        <h3>Research</h3>
+        <p>Nanoscale metrology for soft and polymeric materials, soft electronics, and the models that connect a measurement to a material property.</p>
+        <span class="btn-text">Explore &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/methods/' | relative_url }}" style="text-decoration:none;">
+        <h3>Methods</h3>
+        <p>The instruments and workflows behind the science — AFM, AFM-IR, force spectroscopy, and the data pipelines that turn signals into properties.</p>
+        <span class="btn-text">Explore &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/publications/' | relative_url }}" style="text-decoration:none;">
+        <h3>Publications</h3>
+        <p>Peer-reviewed work spanning soft-matter metrology, stretchable electronics, polymer physics, and energy materials.</p>
+        <span class="btn-text">Explore &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/about/' | relative_url }}" style="text-decoration:none;">
+        <h3>About</h3>
+        <p>Background, affiliation, and the measurement-first approach behind the work.</p>
+        <span class="btn-text">Explore &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tinted">
+  <div class="wrap">
+    <div class="section-head" style="display:flex; align-items:baseline; justify-content:space-between; max-width:none;">
+      <h2 class="mt-0">Latest publications</h2>
+      <a class="btn-text" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
+    </div>
+
+    <div class="list-row">
+      <span class="list-date">2026</span>
+      <span class="list-text"><a href="https://doi.org/10.26434/chemrxiv-2025-434b4"><strong>Coupling Nanoscale Viscoelastic Measurements and Infrared Heating of Polymers with AFM-IR</strong></a> — C.Y.J. Lim, Z. Bao, L. Michalek · <em>ChemRxiv</em></span>
+    </div>
+    <div class="list-row">
+      <span class="list-date">2026</span>
+      <span class="list-text"><a href="https://doi.org/10.1002/smll.202514518"><strong>Localized Thermomechanical Measurements of Polymers and Blends with AFM&ndash;IR</strong></a> — C.Y.J. Lim, Z. Bao, L. Michalek · <em>Small</em></span>
+    </div>
+    <div class="list-row">
+      <span class="list-date">2026</span>
+      <span class="list-text"><a href="https://doi.org/10.1038/s41928-026-01599-z"><strong>Intrinsically stretchable complementary circuits based on direct photo-patternable polymer semiconductors</strong></a> — Q. Liu, Y. Zheng, H. Wu, L. Michalek, et al. · <em>Nat. Electron.</em></span>
+    </div>
+    <div class="list-row">
+      <span class="list-date">2025</span>
+      <span class="list-text"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12166430/"><strong>A guide for nanomechanical characterization of soft matter via AFM: from mode selection to data reporting</strong></a> — E. Kim, A.L. Ramos Figueroa, M. Schrock, E. Zhang, Z. Bao, L. Michalek · <em>STAR Protocols</em></span>
+    </div>
+  </div>
+</section>
+
+<section class="section-navy cta-banner">
+  <div class="wrap">
+    <h2>Interested in collaborating?</h2>
+    <p>I welcome questions from researchers, students, and industry partners working at the intersection of nanoscale measurement, soft matter, and soft electronics.</p>
+    <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+  </div>
+</section>
