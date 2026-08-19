@@ -27,7 +27,7 @@ repository: "lukasfmichalek/lukasfmichalek.github.io"
  
 github_username: lukasfmichalek
  
-minimal_mistakes_skin: "sunrise"   # try: default, air, contrast, mint, sunrise, neon, dirt
+minimal_mistakes_skin: "dirt"   # try: default, air, contrast, mint, sunrise, neon, dirt
 search: false
 
 # Build settings
