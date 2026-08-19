@@ -14,14 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Frontier Metrology
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+name: &name "Lukas Michalek"
+email: lukasmi@stanford.edu
+description: >-
+  Research at the intersection of scanning probe microscopy, infrared
+  nanospectroscopy, and polymer physics. Developing measurement techniques
+  that make nanoscale material properties directly observable.
+ 
+url: "https://lukasfmichalek.github.io"   # TODO: change to https://frontier-metrology.com in Part 9
+baseurl: ""                                # must stay empty for a user site
+repository: "lukasfmichalek/lukasfmichalek.github.io"
+ 
+github_username: lukasfmichalek
+ 
+minimal_mistakes_skin: "air"   # try: default, air, contrast, mint, sunrise, neon, dirt
 search: true
 
 # Build settings
@@ -58,35 +64,39 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name        : Lukas Michalek
+  avatar      : "/assets/images/bio-photo.jpg"   # replace this file in Part 8
+  bio         : "Postdoctoral researcher, Bao Group, Stanford University. Building instruments that measure what was previously inferred."
+  location    : "Stanford, CA"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lukasmi@stanford.edu.com"          
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en&oi=ao"   
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2257-5038"              
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lukas-michalek-89a692157/"            
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/lukasfmichalek"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en&oi=ao"   
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-2257-5038"    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/lukasfmichalek"
+      
 defaults:
   # _posts
   - scope:
