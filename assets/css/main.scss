@@ -1,14 +1,1 @@
----
-search: false
----
 
-@charset "utf-8";
-
-$serif: "Times New Roman", Times, "Liberation Serif", Georgia, serif !default;
-
-$global-font-family: $serif !default;
-$header-font-family: $serif !default;
-$caption-font-family: $serif !default;
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
