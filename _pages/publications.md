@@ -9,7 +9,7 @@ description: "Peer-reviewed publications by Lukas Michalek, spanning nanoscale m
   <div class="wrap">
     <span class="eyebrow">Publications</span>
     <h1 style="color:#fff;">The work, in print.</h1>
-    <p class="hero-lede">Selected and complete lists of peer-reviewed publications. For citation counts and the most current list, see Google Scholar or ORCID.</p>
+    <p class="hero-lede">Lists of peer-reviewed publications. For the most current list, see Google Scholar or ORCID.</p>
     <div class="hero-actions" style="margin-top:26px;">
       <a class="btn btn-outline-light" href="https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
       <a class="btn btn-outline-light" href="https://orcid.org/0000-0002-2257-5038" target="_blank" rel="noopener">ORCID &#8599;</a>
