@@ -21,7 +21,7 @@ description: "Peer-reviewed publications by Lukas Michalek, spanning nanoscale m
 <section class="section">
   <div class="wrap prose" markdown="1">
 
-*Within each year, papers on which I am first, second, or last author are listed first.*
+*Within each year, papers on which I am first, second, last, or corresponding author are listed first.*
 
 ## 2026
 
@@ -31,10 +31,6 @@ M. Schrock, **L. Michalek**, Q.-G. Chen, Q. Liu, R.K. Mow, Y. Shi, Z. Bao
 
 **[Spatially-Resolved Viscoelastic Response with AFM-IR](https://doi.org/10.26434/chemrxiv.15000735/v4)**  
 C.Y.J. Lim, J.J. Schwartz, B. Pittenger, Y. Shi, Y. Tomo, P. De Wolf, A. Centrone, Z. Bao, **L. Michalek**  
-*ChemRxiv*, 2026.
-
-**[Coupling Nanoscale Viscoelastic Measurements and Infrared Heating of Polymers with AFM-IR](https://doi.org/10.26434/chemrxiv-2025-434b4)**  
-C.Y.J. Lim, Z. Bao, **L. Michalek**  
 *ChemRxiv*, 2026.
 
 **[Localized Thermomechanical Measurements of Polymers and Blends with AFM‐IR](https://doi.org/10.1002/smll.202514518)**  
