@@ -22,7 +22,7 @@ description: "Primers, records, and links for students and collaborators working
     <div class="res-grid">
       <div class="res-card" style="grid-column: 1 / -1;">
         <h3>A guide for nanomechanical characterization of soft matter via AFM: from mode selection to data reporting</h3>
-        <p>E. Kim, A.L. Ramos Figueroa, M. Schrock, E. Zhang, Z. Bao, L. Michalek &middot; <em>STAR Protocols</em>, 2025 — mode selection, calibration, and data-reporting practice for quantitative AFM on soft materials.</p>
+        <p>E. Kim, A.L. Ramos Figueroa, M. Schrock, E. Zhang, C.J. Newcomb, Z. Bao, L. Michalek &middot; <em>STAR Protocols</em>, 2025 — mode selection, calibration, and data-reporting practice for quantitative AFM on soft materials.</p>
         <div class="res-meta">
           <span>Open access</span>
           <a class="btn-text" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12166430/" target="_blank" rel="noopener">Read the protocol &rarr;</a>
