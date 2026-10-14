@@ -43,7 +43,7 @@ description: "Primers, records, and links for students and collaborators working
         {% unless link.label == "Email" %}
         <div class="res-card">
           <h3>{{ link.label }}</h3>
-          <p>{% if link.label == "Google Scholar" %}Full publication list and citation metrics.{% elsif link.label == "ORCID" %}Persistent researcher identifier and verified publication record.{% elsif link.label == "LinkedIn" %}Professional background and affiliations.{% elsif link.label == "GitHub" %}Code and data-analysis pipelines as they are published.{% endif %}</p>
+          <p>{% if link.label == "Google Scholar" %}Full publication list and citation metrics.{% elsif link.label == "ORCID" %}Persistent researcher identifier and verified publication record.{% elsif link.label == "Scilove" %}Author page on Scilove, linked to my ORCID record.{% elsif link.label == "LinkedIn" %}Professional background and affiliations.{% elsif link.label == "GitHub" %}Code and data-analysis pipelines as they are published.{% endif %}</p>
           <div class="res-meta">
             <span>&nbsp;</span>
             <a class="btn-text" href="{{ link.url }}" target="_blank" rel="noopener">Visit &rarr;</a>
