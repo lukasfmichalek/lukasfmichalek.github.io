@@ -20,7 +20,7 @@ Old URLs (`/about/`, `/contact/`, `/methods/`, `/resources/`) redirect to their 
 ## Updating content
 
 - **Publications:** edit `_data/publications.yml`. Keep year order; within a year, lead-author papers first. `roles` (first, second, last, corresponding) adds the badge and the lead-author filter; `selected: true` puts a paper on the homepage.
-- **News:** edit `_data/news.yml`, newest first. The homepage shows the latest six.
+- **News:** edit `_data/news.yml`, newest first. The homepage shows the latest seven.
 - **Navigation:** `_data/navigation.yml`.
 
 ## Images
@@ -37,6 +37,7 @@ Image slots show a placeholder until a file exists at the slot's path. To fill o
 | `assets/images/teaching/training.jpg` | Teaching | 4:3 |
 | `assets/images/teaching/mentoring-group.jpg` | Teaching, Mentoring | 4:3 |
 | `assets/images/service/service.jpg` | Service | 4:3 |
+| `assets/images/outreach/nnci-image-contest.jpg` | Service, Outreach gallery (first) | 3:2 |
 | `assets/images/outreach/outreach-1.jpg` to `outreach-4.jpg` | Service, Outreach gallery | 3:2 |
 | `assets/images/personal/running.jpg` | Home, Beyond the lab | 3:2 |
 | `assets/files/CV_Michalek.pdf` | CV download button | PDF |

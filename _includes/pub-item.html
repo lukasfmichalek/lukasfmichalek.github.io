@@ -4,7 +4,7 @@
   <div class="pub-authors">{{ p.authors | replace: "L. Michalek", "<strong>L. Michalek</strong>" }}</div>
   <div class="pub-meta">
     <span><em>{{ p.venue }}</em>, {{ p.year }}</span>
-    {% if p.type == "preprint" %}<span class="badge badge-muted">Preprint</span>{% endif %}
+    {% if p.type == "preprint" %}<span class="badge badge-muted">Preprint</span>{% elsif p.type == "conference" %}<span class="badge badge-muted">Conference paper</span>{% endif %}
     {% if p.roles contains "first" %}<span class="badge">First author</span>{% endif %}
     {% if p.roles contains "corresponding" %}<span class="badge">Corresponding</span>{% elsif p.roles contains "last" %}<span class="badge">Last author</span>{% endif %}
   </div>
