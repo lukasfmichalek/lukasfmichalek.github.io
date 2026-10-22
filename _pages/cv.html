@@ -1,0 +1,93 @@
+---
+layout: default
+title: "CV"
+permalink: /cv/
+description: "Curriculum vitae of Lukas F. Michalek, Research Scientist at Stanford University."
+---
+
+{% assign cv_path = "/assets/files/CV_Michalek.pdf" %}
+{% assign cv_file = site.static_files | where: "path", cv_path | first %}
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Curriculum vitae</span>
+    <h1>CV</h1>
+    <p class="lede">A one-page summary. The full CV, with publications, talks and funding, is available as a PDF.</p>
+    <div class="btn-row" style="margin-top:24px;">
+      {% if cv_file %}
+      <a class="btn btn-primary" href="{{ cv_path | relative_url }}" target="_blank" rel="noopener">Download CV (PDF) &rarr;</a>
+      {% else %}
+      <span class="btn btn-disabled" title="Add the file at assets/files/CV_Michalek.pdf">CV PDF placeholder: assets/files/CV_Michalek.pdf</span>
+      {% endif %}
+      <a class="btn btn-outline-dark" href="{{ '/publications/' | relative_url }}">Publications</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div>
+      <div class="block">
+        <h2 class="block-title">Positions</h2>
+        <ul class="entries">
+          <li class="entry"><span class="when">2022 &ndash; now</span><div><div class="what">Research Scientist, Stanford University</div><div class="detail">Bao Group (Chemical Engineering) and nano@Stanford. Joined as DFG Walter Benjamin Postdoctoral Fellow.</div></div></li>
+          <li class="entry"><span class="when">2023 &ndash; now</span><div><div class="what">Fellow, Stanford Emerging Technology Review</div><div class="detail">Materials Science and Nanotechnology</div></div></li>
+          <li class="entry"><span class="when">2021 &ndash; now</span><div><div class="what">Visiting Research Fellow, Queensland University of Technology</div><div class="detail">Investigator, ARC Linkage project on advanced fibre interfaces for active water management</div></div></li>
+          <li class="entry"><span class="when">2019 &ndash; 2021</span><div><div class="what">Postdoctoral Researcher, Queensland University of Technology</div><div class="detail">Barner-Kowollik group. Development of a laser-coupled AFM for dynamic polymer networks (Merck 350th Anniversary Grant).</div></div></li>
+          <li class="entry"><span class="when">2016 &ndash; 2017</span><div><div class="what">Research Assistant, University of Stuttgart</div><div class="detail">Materials characterization by TEM, Schmitz group</div></div></li>
+          <li class="entry"><span class="when">2015 &ndash; 2016</span><div><div class="what">Student Trainee, Robert Bosch GmbH</div><div class="detail">Heat treatment, lifetime analysis and microstructure of steel camshafts</div></div></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title">Education</h2>
+        <ul class="entries">
+          <li class="entry"><span class="when">2017 &ndash; 2020</span><div><div class="what">PhD, Soft Matter Materials, Queensland University of Technology</div><div class="detail">Advisors: Christopher Barner-Kowollik and Leonie Barner. Executive Dean's Commendation for Outstanding Doctoral Thesis.</div></div></li>
+          <li class="entry"><span class="when">2014 &ndash; 2016</span><div><div class="what">MSc, Materials Science, University of Stuttgart</div><div class="detail">Advisor: Guido Schmitz</div></div></li>
+          <li class="entry"><span class="when">2011 &ndash; 2014</span><div><div class="what">BSc, Materials Science, University of Stuttgart</div><div class="detail">Advisor: Michael Buchmeiser</div></div></li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title">Grants and fellowships</h2>
+        <ul class="entries">
+          <li class="entry"><span class="when">2021</span><div><div class="what">DFG Walter Benjamin Postdoctoral Fellowship</div><div class="detail">German Research Foundation</div></div></li>
+          <li class="entry"><span class="when">2021</span><div><div class="what">ARC Linkage Grant with Lapinus</div><div class="detail">Chief investigator</div></div></li>
+          <li class="entry"><span class="when">2020, 2021</span><div><div class="what">ANSTO neutron reflectometry beamtime grants</div><div class="detail">Investigator</div></div></li>
+          <li class="entry"><span class="when">2020</span><div><div class="what">Research grant with Lapinus</div><div class="detail">Principal investigator</div></div></li>
+          <li class="entry"><span class="when">2019</span><div><div class="what">Merck 350th Anniversary Grant</div><div class="detail">Co-investigator</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <dl class="facts">
+        <dt>At a glance</dt>
+        <dd>
+          <ul>
+            <li>{{ site.data.publications | size }} publications</li>
+            <li>3 patents</li>
+            <li>About USD 886,000 in competitive funding as chief or partner investigator</li>
+          </ul>
+        </dd>
+        <dt>Awards</dt>
+        <dd>
+          <ul>
+            <li>PMSE Future Faculty Award, ACS Fall Meeting, 2024</li>
+            <li>NSF Future Faculty Workshop on Soft Matter, 2023</li>
+            <li>Young Scientist Assembly Award, IMC20, 2023</li>
+            <li>Executive Dean's Commendation, Outstanding Doctoral Thesis, QUT, 2021</li>
+            <li>SIEF-AAS Fellow, Lindau Nobel Laureate Meeting, 2021</li>
+            <li>High Achiever HDR Student Award, QUT, 2019</li>
+            <li>QUT Postgraduate Research Award, 2017</li>
+            <li>Deutschlandstipendium, 2016</li>
+          </ul>
+        </dd>
+        <dt>Languages</dt>
+        <dd>German (native), English (fluent)</dd>
+        <dt>Contact</dt>
+        <dd><a href="mailto:{{ site.email }}" style="color:var(--navy-800);">{{ site.email }}</a><br>Chemical Engineering, Stanford University</dd>
+      </dl>
+    </div>
+  </div>
+</section>

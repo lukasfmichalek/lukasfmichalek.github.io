@@ -1,0 +1,79 @@
+---
+title: "Publications"
+permalink: /publications/
+layout: default
+description: "Publications, patents and invited talks of Lukas F. Michalek."
+---
+
+{% assign pubs = site.data.publications %}
+{% assign years = pubs | map: "year" | uniq %}
+{% assign lead_count = 0 %}{% for p in pubs %}{% if p.roles %}{% assign lead_count = lead_count | plus: 1 %}{% endif %}{% endfor %}
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Publications</span>
+    <h1>Publications and talks</h1>
+    <p class="lede">{{ pubs | size }} publications across polymer chemistry, soft electronics, energy materials and nanoscale measurement, {{ lead_count }} of them as first, second, last or corresponding author. Google Scholar and ORCID have the most current record.</p>
+    <div class="link-row">
+      <a href="https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
+      <a href="https://orcid.org/0000-0002-2257-5038" target="_blank" rel="noopener">ORCID &#8599;</a>
+      <a href="https://www.scilove.app/author/0000-0002-2257-5038" target="_blank" rel="noopener">Scilove &#8599;</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:44px;">
+  <div class="wrap">
+    <div class="pub-toolbar">
+      <label><input type="checkbox" id="lead-toggle"> Show only first, second, last or corresponding author</label>
+      <span class="year-nav">{% for y in years %}<a href="#y{{ y }}">{{ y }}</a>{% endfor %}</span>
+    </div>
+    <p style="color:var(--muted); font-size:0.92rem;">Within each year, papers on which I am first, second, last or corresponding author are listed first.</p>
+
+    <div id="pub-root">
+      {% for y in years %}
+      <div class="year-block">
+        <h2 class="year-head" id="y{{ y }}">{{ y }}</h2>
+        <ul class="pub-list">
+          {% for p in pubs %}{% if p.year == y %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="split-even" style="margin-top:72px;">
+      <div>
+        <h2 class="block-title">Patents</h2>
+        <p style="color:var(--muted-strong);">Three patents in light-gated adhesives and active stormwater treatment, arising from the surface chemistry work at QUT.</p>
+        <h2 class="block-title" style="margin-top:40px;">Theses</h2>
+        <ul class="entries">
+          <li class="entry"><span class="when">PhD, 2020</span><div><div class="what">Quantifying Macromolecular Growth and Hierarchical Structuring on Interfaces</div><div class="detail">Queensland University of Technology. Executive Dean's Commendation for Outstanding Doctoral Thesis.</div></div></li>
+          <li class="entry"><span class="when">MSc, 2016</span><div><div class="what">Hydrogen Sorption Kinetics in Titanium Hydride Thin Films</div><div class="detail">University of Stuttgart</div></div></li>
+          <li class="entry"><span class="when">BSc, 2014</span><div><div class="what">Monolithic Cellulose-Polymer Hybrid Materials for Continuous Biocatalysis</div><div class="detail">University of Stuttgart</div></div></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="block-title">Selected talks</h2>
+        <ul class="entries">
+          <li class="entry"><span class="when">2026</span><div><div class="what">Invited talk</div><div class="detail">MRS Fall Meeting, Boston</div></div></li>
+          <li class="entry"><span class="when">2026</span><div><div class="what">PRIMA: Photothermal Resonant Infrared Mechanical Analysis</div><div class="detail">APS Global Physics Summit, Denver</div></div></li>
+          <li class="entry"><span class="when">2024</span><div><div class="what">The Next Evolution of Composite Materials Through Intimate Molecular Interfaces</div><div class="detail">Invited, ACS Fall Future Faculty Symposium, Denver</div></div></li>
+          <li class="entry"><span class="when">2024</span><div><div class="what">Advancement in Characterization of Materials for Stretchable Electronics</div><div class="detail">Invited seminar, Heidelberg University</div></div></li>
+          <li class="entry"><span class="when">2024</span><div><div class="what">Advancements in Polymer Surface Functionalization</div><div class="detail">Invited seminar, Paul Scherrer Institute</div></div></li>
+          <li class="entry"><span class="when">2023</span><div><div class="what">Photochemistry on Soft Matter Surfaces</div><div class="detail">Invited seminar, University of M&uuml;nster</div></div></li>
+          <li class="entry"><span class="when">2023</span><div><div class="what">Pushing the Limits: From 2D to 3D AFM</div><div class="detail">International Microscopy Congress IMC20, Busan. Young Scientist Assembly Award.</div></div></li>
+          <li class="entry"><span class="when">2021</span><div><div class="what">Photochemical Polymer Brush Design</div><div class="detail">Invited opening talk, Polymer Brushes workshop, Dresden (virtual)</div></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var t = document.getElementById('lead-toggle');
+    var root = document.getElementById('pub-root');
+    if (!t || !root) return;
+    t.addEventListener('change', function () { root.classList.toggle('pubs-lead-only', t.checked); });
+  })();
+</script>

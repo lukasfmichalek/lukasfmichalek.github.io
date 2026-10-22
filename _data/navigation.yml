@@ -1,13 +1,11 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "Research"
     url: /research/
-  - title: "Methods"
-    url: /methods/
   - title: "Publications"
     url: /publications/
-  - title: "Resources"
-    url: /resources/
-  - title: "Contact"
-    url: /contact/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Service & Outreach"
+    url: /service/
+  - title: "CV"
+    url: /cv/
