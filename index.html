@@ -1,86 +1,128 @@
 ---
 layout: default
 title: ""
-description: "Nanoscale characterization of soft matter and soft electronic materials — AFM, AFM-IR, and multi-modal metrology, from the Bao Group and nano@Stanford."
+description: "Lukas F. Michalek, Research Scientist at Stanford University. Polymer chemistry, nanomechanics and infrared nanospectroscopy of soft and polymeric materials."
 permalink: /
 ---
 
-<section class="hero on-navy">
+<section class="hero-home">
   <div class="wrap">
     <div>
-      <span class="eyebrow">Bao Group &middot; nano@Stanford</span>
-      <h1>{{ site.title }}</h1>
-      <p class="hero-lede">{{ site.description }}</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore the research &rarr;</a>
-        <a class="btn btn-outline-light" href="{{ '/publications/' | relative_url }}">View publications</a>
-        <a class="btn-text" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+      <span class="eyebrow">Stanford University &middot; Bao Group &amp; nano@Stanford</span>
+      <h1>Lukas F. Michalek</h1>
+      <p class="role">Research Scientist</p>
+      <p class="lede">I study how chemistry and processing set the nanoscale structure and mechanics of polymers, and I build the measurement methods needed to see it in real materials.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Research &rarr;</a>
+        <a class="btn btn-outline-dark" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="btn btn-outline-dark" href="{{ '/cv/' | relative_url }}">CV</a>
+      </div>
+      <div class="link-row">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {% for link in site.author.links %}{% unless link.label == "Email" or link.label == "LinkedIn" %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endunless %}{% endfor %}
       </div>
     </div>
-    <div class="hero-art">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Microscope" style="width:100%; height:100%; object-fit:cover;">
-      <span class="hero-art-caption">AFM &middot; AFM-IR &middot; Soft Matter Metrology</span>
+    <div class="hero-portrait">
+      <img src="{{ site.author.avatar | relative_url }}" alt="Portrait of Lukas Michalek">
     </div>
+  </div>
+</section>
+
+<section class="section section-tinted">
+  <div class="wrap split">
+    <div class="prose-body">
+      <h2 class="mt-0">About</h2>
+      <p>I am a Research Scientist at Stanford University, working in the group of Zhenan Bao in Chemical Engineering and at nano@Stanford, the university's shared nanofabrication and characterization facilities.</p>
+      <p>My research asks how chemistry and processing set the nanoscale structure, mechanics and function of polymers, and how to measure those properties in heterogeneous, real materials rather than idealized ones. I combine polymer and surface chemistry with scanning probe microscopy and infrared nanospectroscopy, and develop new measurement methods where existing ones fall short. One example is PRIMA, which measures the thermomechanical response of individual phases in polymer blends.</p>
+      <p>I trained in materials science at the University of Stuttgart and completed my PhD in polymer surface chemistry with Christopher Barner-Kowollik at Queensland University of Technology, before joining Stanford as a DFG Walter Benjamin Fellow.</p>
+    </div>
+    <dl class="facts">
+      <dt>Current position</dt>
+      <dd>Research Scientist, Bao Group &amp; nano@Stanford, Stanford University</dd>
+      <dt>Education</dt>
+      <dd>PhD, Queensland University of Technology (2020)<br>MSc and BSc Materials Science, University of Stuttgart</dd>
+      <dt>Selected recognition</dt>
+      <dd>
+        <ul>
+          <li>PMSE Future Faculty Award, ACS Fall 2024</li>
+          <li>NSF Future Faculty Workshop on Soft Matter, 2023</li>
+          <li>Young Scientist Assembly Award, IMC20, 2023</li>
+          <li>Lindau Nobel Laureate Meeting Fellow, 2021</li>
+          <li>DFG Walter Benjamin Fellowship, 2021</li>
+        </ul>
+      </dd>
+    </dl>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <div class="card-grid">
-      <a class="card card-dark" href="{{ '/research/' | relative_url }}" style="text-decoration:none;">
-        <h3>Research</h3>
-        <p>Nanoscale metrology for soft and polymeric materials, soft electronics, and the models that connect a measurement to a material property.</p>
-        <span class="btn-text">Explore &rarr;</span>
+    <div class="section-head" style="display:flex; align-items:baseline; justify-content:space-between; max-width:none;">
+      <h2 class="mt-0">Research</h2>
+      <a class="btn-text" href="{{ '/research/' | relative_url }}">Research overview &rarr;</a>
+    </div>
+    <div class="theme-cards">
+      <a class="theme-card" href="{{ '/research/#interfaces' | relative_url }}">
+        {% include img-slot.html path="/assets/images/research/theme-1-interfaces.jpg" label="Theme 1 figure: polymer surface chemistry" %}
+        <span class="n">01</span>
+        <h3>Polymer chemistry at surfaces and interfaces</h3>
+        <p>Grafting, photochemistry and light-responsive polymer surfaces.</p>
       </a>
-      <a class="card" href="{{ '/methods/' | relative_url }}" style="text-decoration:none;">
-        <h3>Methods</h3>
-        <p>The instruments and workflows behind the science — AFM, AFM-IR, force spectroscopy, and the data pipelines that turn signals into properties.</p>
-        <span class="btn-text">Explore &rarr;</span>
+      <a class="theme-card" href="{{ '/research/#soft-electronics' | relative_url }}">
+        {% include img-slot.html path="/assets/images/research/theme-2-soft-electronics.jpg" label="Theme 2 figure: blend morphology or stretchable device" %}
+        <span class="n">02</span>
+        <h3>Processing, structure and properties</h3>
+        <p>Soft electronic and energy materials, from blend morphology to device.</p>
       </a>
-      <a class="card" href="{{ '/publications/' | relative_url }}" style="text-decoration:none;">
-        <h3>Publications</h3>
-        <p>Peer-reviewed work spanning soft-matter metrology, stretchable electronics, polymer physics, and energy materials.</p>
-        <span class="btn-text">Explore &rarr;</span>
+      <a class="theme-card" href="{{ '/research/#nanomechanics' | relative_url }}">
+        {% include img-slot.html path="/assets/images/research/theme-3-nanomechanics.jpg" label="Theme 3 figure: nanomechanical map" %}
+        <span class="n">03</span>
+        <h3>Nanomechanics of soft matter</h3>
+        <p>Quantitative modulus, viscoelasticity and transitions at the nanoscale.</p>
       </a>
-      <a class="card" href="{{ '/about/' | relative_url }}" style="text-decoration:none;">
-        <h3>About</h3>
-        <p>Background, affiliation, and the measurement-first approach behind the work.</p>
-        <span class="btn-text">Explore &rarr;</span>
+      <a class="theme-card" href="{{ '/research/#instruments' | relative_url }}">
+        {% include img-slot.html path="/assets/images/research/theme-4-instruments.jpg" label="Theme 4 figure: PRIMA or nDMA data" %}
+        <span class="n">04</span>
+        <h3>Measurement physics and instruments</h3>
+        <p>New AFM-IR methods such as PRIMA, and the data they generate.</p>
       </a>
     </div>
   </div>
 </section>
 
 <section class="section section-tinted">
-  <div class="wrap">
-    <div class="section-head" style="display:flex; align-items:baseline; justify-content:space-between; max-width:none;">
-      <h2 class="mt-0">Latest publications</h2>
-      <a class="btn-text" href="{{ '/publications/' | relative_url }}">View all &rarr;</a>
+  <div class="wrap split-even">
+    <div>
+      <h2 class="mt-0" style="margin-bottom:20px;">News</h2>
+      <ul class="news">
+        {% for item in site.data.news limit: 6 %}
+        <li>
+          <span class="when">{{ item.when }}</span>
+          <span>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-
-    <div class="list-row">
-      <span class="list-date">2026</span>
-      <span class="list-text"><a href="https://doi.org/10.26434/chemrxiv.15000735/v4"><strong>Spatially-Resolved Viscoelastic Response with AFM-IR</strong></a> — C.Y.J. Lim, J.J. Schwartz, B. Pittenger, et al., Z. Bao, L. Michalek · <em>ChemRxiv</em></span>
-    </div>
-    <div class="list-row">
-      <span class="list-date">2026</span>
-      <span class="list-text"><a href="https://doi.org/10.1002/smll.202514518"><strong>Localized Thermomechanical Measurements of Polymers and Blends with AFM&ndash;IR</strong></a> — C.Y.J. Lim, Z. Bao, L. Michalek · <em>Small</em></span>
-    </div>
-    <div class="list-row">
-      <span class="list-date">2026</span>
-      <span class="list-text"><a href="https://doi.org/10.1021/acsami.6c07306"><strong>Solvent-Mediated Diffusion Enables Directed Functionalization of Polymer Semiconductor Interfaces</strong></a> — M. Schrock, L. Michalek, Q.-G. Chen, et al. · <em>ACS Appl. Mater. Interfaces</em></span>
-    </div>
-    <div class="list-row">
-      <span class="list-date">2026</span>
-      <span class="list-text"><a href="https://doi.org/10.1126/sciadv.aec2641"><strong>Biofunctionalized polymer semiconductors toward soft and stretchable transistor-based biosensors</strong></a> — C. Zhao, Q. Liu, J.-Y. Chang, A. Patil, L. Michalek, et al. · <em>Sci. Adv.</em></span>
+    <div>
+      <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:20px;">
+        <h2 class="mt-0" style="margin:0;">Selected publications</h2>
+        <a class="btn-text" href="{{ '/publications/' | relative_url }}">All &rarr;</a>
+      </div>
+      {% assign selected = site.data.publications | where: "selected", true %}
+      <ul class="pub-list">
+        {% for p in selected %}{% include pub-item.html pub=p %}{% endfor %}
+      </ul>
     </div>
   </div>
 </section>
 
-<section class="section-navy cta-banner">
-  <div class="wrap">
-    <h2>Interested in collaborating?</h2>
-    <p>I welcome questions from researchers, students, and industry partners working at the intersection of nanoscale measurement, soft matter, and soft electronics.</p>
-    <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Get in touch &rarr;</a>
+<section class="section">
+  <div class="wrap split">
+    <div class="prose-body">
+      <h2 class="mt-0">Beyond the lab</h2>
+      <p>Outside the lab I run competitive long-distance races and coach other runners. I also enjoy graphic design.</p>
+      <p>I am always happy to talk with researchers, students and industry partners about polymers, interfaces and nanoscale measurement. Email is the best way to reach me: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    </div>
+    {% include img-slot.html path="/assets/images/personal/running.jpg" label="Optional: running or outdoor photo" ratio="3 / 2" %}
   </div>
 </section>

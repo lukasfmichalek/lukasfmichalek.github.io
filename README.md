@@ -1,27 +1,42 @@
-# Minimal Mistakes remote theme starter
+# lukasfmichalek.github.io
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal academic website of Lukas F. Michalek, built with plain Jekyll on GitHub Pages.
 
-Contains basic configuration to get you a site with:
+The earlier lab-style "Frontier Metrology" version is kept on the branch `claude/archive-frontier-metrology` as a starting point for a future group website.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Structure
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+| Page | File |
+| --- | --- |
+| Home | `index.html` |
+| Research | `_pages/research.html` |
+| Publications | `_pages/publications.html` (reads `_data/publications.yml`) |
+| Teaching & Mentoring | `_pages/teaching.html` |
+| Service & Outreach | `_pages/service.html` |
+| CV | `_pages/cv.html` |
 
----
+Old URLs (`/about/`, `/contact/`, `/methods/`, `/resources/`) redirect to their new places.
 
-## Troubleshooting
+## Updating content
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+- **Publications:** edit `_data/publications.yml`. Keep year order; within a year, lead-author papers first. `roles` (first, second, last, corresponding) adds the badge and the lead-author filter; `selected: true` puts a paper on the homepage.
+- **News:** edit `_data/news.yml`, newest first. The homepage shows the latest six.
+- **Navigation:** `_data/navigation.yml`.
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+## Images
+
+Image slots show a placeholder until a file exists at the slot's path. To fill one, add a JPG at exactly that path (at least 1600 px on the long side).
+
+| Path | Where it appears | Shape |
+| --- | --- | --- |
+| `assets/images/research/theme-1-interfaces.jpg` | Home cards, Research theme 1 | 4:3 |
+| `assets/images/research/theme-2-soft-electronics.jpg` | Home cards, Research theme 2 | 4:3 |
+| `assets/images/research/theme-3-nanomechanics.jpg` | Home cards, Research theme 3 | 4:3 |
+| `assets/images/research/theme-4-instruments.jpg` | Home cards, Research theme 4 | 4:3 |
+| `assets/images/lab/portrait-instrument.jpg` | Research, Approach | 4:5 portrait |
+| `assets/images/teaching/training.jpg` | Teaching | 4:3 |
+| `assets/images/teaching/mentoring-group.jpg` | Teaching, Mentoring | 4:3 |
+| `assets/images/service/service.jpg` | Service | 4:3 |
+| `assets/images/outreach/outreach-1.jpg` to `outreach-4.jpg` | Service, Outreach gallery | 3:2 |
+| `assets/images/personal/running.jpg` | Home, Beyond the lab | 3:2 |
+| `assets/files/CV_Michalek.pdf` | CV download button | PDF |

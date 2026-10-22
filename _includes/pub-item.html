@@ -1,0 +1,11 @@
+{% assign p = include.pub %}
+<li class="pub{% if p.roles %} pub-lead{% endif %}">
+  <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+  <div class="pub-authors">{{ p.authors | replace: "L. Michalek", "<strong>L. Michalek</strong>" }}</div>
+  <div class="pub-meta">
+    <span><em>{{ p.venue }}</em>, {{ p.year }}</span>
+    {% if p.type == "preprint" %}<span class="badge badge-muted">Preprint</span>{% endif %}
+    {% if p.roles contains "first" %}<span class="badge">First author</span>{% endif %}
+    {% if p.roles contains "corresponding" %}<span class="badge">Corresponding</span>{% elsif p.roles contains "last" %}<span class="badge">Last author</span>{% endif %}
+  </div>
+</li>

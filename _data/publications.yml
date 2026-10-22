@@ -1,0 +1,317 @@
+# Publications, newest year first. Within a year, papers where Lukas is first,
+# second, last or corresponding author come first. Keep in sync with the ORCID export.
+# roles: first | second | last | corresponding ; selected: true shows it on the homepage
+- year: 2026
+  title: Solvent-Mediated Diffusion Enables Directed Functionalization of Polymer Semiconductor Interfaces
+  url: https://doi.org/10.1021/acsami.6c07306
+  authors: M. Schrock, L. Michalek, Q.-G. Chen, Q. Liu, R.K. Mow, Y. Shi, Z. Bao
+  venue: ACS Appl. Mater. Interfaces
+  roles:
+  - second
+- year: 2026
+  title: Spatially-Resolved Viscoelastic Response with AFM-IR
+  url: https://doi.org/10.26434/chemrxiv.15000735/v4
+  authors: C.Y.J. Lim, J.J. Schwartz, B. Pittenger, Y. Shi, Y. Tomo, P. De Wolf, A. Centrone, Z. Bao, L. Michalek
+  venue: ChemRxiv
+  roles:
+  - last
+  - corresponding
+  type: preprint
+  selected: true
+- year: 2026
+  title: Localized Thermomechanical Measurements of Polymers and Blends with AFM‐IR
+  url: https://doi.org/10.1002/smll.202514518
+  authors: C.Y.J. Lim, Z. Bao, L. Michalek
+  venue: Small
+  roles:
+  - last
+  - corresponding
+  selected: true
+- year: 2026
+  title: Polydopamine-Mediated Grafting of Cationic Polymer Brushes for Adsorption of Fluorinated Compounds
+  url: https://doi.org/10.1002/chem.202503580
+  authors: A.C. Morrissey, F. Sbordone, F. Pashley-Johnson, A.S. Micallef, B. van de Worp, N. Zaquen, P. Egodawatta, L. Delafresnaye, L. Michalek, C. Barner-Kowollik
+  venue: Chemistry – A European Journal
+  roles:
+  - corresponding
+- year: 2026
+  title: Biofunctionalized polymer semiconductors toward soft and stretchable transistor-based biosensors
+  url: https://doi.org/10.1126/sciadv.aec2641
+  authors: C. Zhao, Q. Liu, J.-Y. Chang, A. Patil, L. Michalek, Y. Wu, Y. Yuan, R.K. Mow, Y. Shi, Y. Yao, K.-J. Hsu, Y. Zheng, Z. Bao
+  venue: Science Advances
+- year: 2026
+  title: A monolithic fabrication platform for intrinsically stretchable polymer transistors and complementary circuits
+  url: https://arxiv.org/abs/2601.10975
+  authors: Y. Yuan, C. Zhao, M. Ronchini, Y. Nishio, D. Zhong, C. Wu, H. Kweon, Z. Sun, R.K. Mow, Y. Shi, L. Michalek, H. Wu, Q. Liu, W. Wang, Y. Yao, Z. Yin, J. Zhao, Z. He, K. Chen, R. Wu, J. Shi, J. Pei, Zhenan Bao
+  venue: Device
+- year: 2026
+  title: Intrinsically stretchable complementary circuits based on direct photo-patternable polymer semiconductors
+  url: https://doi.org/10.1038/s41928-026-01599-z
+  authors: Q. Liu, Y. Zheng, H. Wu, L. Michalek, M. Ronchini, R.K. Mow, W. Wang, H. Park, X. Ji, Z. Yu, Z.-F. Yao, Y. Nishio, C. Zhao, J. Pei, Z. Bao
+  venue: Nature Electronics
+- year: 2026
+  title: Solution-state nanoconfined aggregation and microstructure evolution in blends of conjugated polymers and elastomers
+  url: https://doi.org/10.1073/pnas.2516186123
+  authors: A.E. Peña-Alcántara, M. Ghasemi, C. Cheng, T.P. Chaney, A.H. Coffey, E. Ponte, X. Ji, L. Michalek, Y. Wu, M. Schrock, G. Ngaruka, M.L. Gala, C. Zhu, M.F. Toney, A. Salleo, E.D. Gomez, Z. Bao
+  venue: Proceedings of the National Academy of Sciences
+- year: 2026
+  title: 'Photolyzable Polymer Brushes: Subtractive 3D Structuring of Surfaces Using Water and Light'
+  url: https://doi.org/10.1002/anie.2790800
+  authors: H. Kalmer, F. Sbordone, P.T. Do, K. Mundsinger, H. Kayas, R.T. Jones, J. Mendhi, T.R. Dargaville, D.G. Harkin, L. Michalek, A. Nelson, H. Frisch
+  venue: Angewandte Chemie International Edition
+- year: 2026
+  title: Ultrasensitive soft vibration sensors based on atomically thin metal dichalcogenide ribbon networks
+  url: https://doi.org/10.1126/sciadv.aeb6733
+  authors: C. Xu, X. Li, L. Michalek, J. Park, E. Kim, Z. Zhang, R.R. Unocic, E.T. Zhao, W.-C. Hsu, B. Shi, S. Wu, Y. Yang, A.R. Harutyunyan, Z. Bao
+  venue: Science Advances
+- year: 2026
+  title: Temperature-Controlled Phase Separation Behavior of Conjugated Polymer:Elastomer Blends of PffBT4T-2OD and SEBS
+  url: https://doi.org/10.1021/acsaelm.5c01823
+  authors: A.E. Peña-Alcántara, S. Nikzad, G. Ngaruka, L. Michalek, Zhenan Bao
+  venue: ACS Applied Electronic Materials
+- year: 2026
+  title: Field-Responsive Dynamic Monolayer Regulated Interphase for Enhanced Lithium Metal Batteries
+  url: https://doi.org/10.1021/jacs.5c19365
+  authors: E. Zhang, J. Holoubek, H. Lyu, Y. Li, J. Florian, S.B. Shuchi, J.K.J. Lee, L. Michalek, T. Chen, Z. Chen, I.R. Choi, X. Guo, L. Mondonico, Y. Cui, Z. Bao
+  venue: J. Am. Chem. Soc.
+- year: 2026
+  title: Stabilizing All-Solid-State Li–S Batteries by a Polysulfide-Repelling and Anode-Protecting Self-Segregated Trilayer Polymer Electrolyte
+  url: https://doi.org/10.1021/jacs.5c18042
+  authors: H. Lyu, X. Gao, L. Michalek, T. Chen, W. Yu, C.Y.J. Lim, J. Florian, L. Mondonico, W. Zhang, S. Sarkar, P. Zhang, Y. Shi, K.-Y. Lin, S.-L. Liao, X. Zheng, J. Qin, Y. Cui, Z. Bao
+  venue: J. Am. Chem. Soc.
+- year: 2025
+  title: 'A guide for nanomechanical characterization of soft matter via AFM: from mode selection to data reporting'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12166430/
+  authors: E. Kim, A.L. Ramos Figueroa, M. Schrock, E. Zhang, C.J. Newcomb, Z. Bao, L. Michalek
+  venue: STAR Protocols
+  roles:
+  - last
+  - corresponding
+  selected: true
+- year: 2025
+  title: Bioinspired Metal Binding Interfaces for Continuous Metal Removal from Water
+  url: https://doi.org/10.1021/acsami.5c06671
+  authors: A.C. Morrissey, F. Sbordone, W. Sprake, L. Michalek, D. Ghijzen, B. van de Worp, N. Zaquen, L. Delafresnaye, P. Egodawatta, C. Barner-Kowollik
+  venue: ACS Appl. Mater. Interfaces
+  roles:
+  - corresponding
+- year: 2025
+  title: Skin-like drift-free biosensors with stretchable diode-connected organic field-effect transistors
+  url: https://doi.org/10.1038/s41928-025-01465-4
+  authors: C. Zhao, J. Park, D. Maulà, Y. Yuan, D. Zhong, W. Wang, Q. Liu, C. Xu, Y. Zheng, R.K. Mow, Y. Jiang, C. Xu, H. Lyu, L. Michalek, A. Berman, Y. Jiang, S. Wei, C. Zhu, C. Wu, A. Abramson, E. Kim, X. Ji, Z. Yu, J. Shi, M. Khatib, B. Shi, Z. Bao
+  venue: Nat. Electron.
+- year: 2025
+  title: Electrochemical Formation of bis(fluorosulfonyl)imide-derived solid-electrolyte interphase at Li-metal potential
+  url: https://doi.org/10.1038/s41557-024-01689-5
+  authors: W. Yu, K.-Y. Lin, D.T. Boyle, M.T. Tang, Y. Cui, Y. Chen, Z. Yu, R. Xu, Y. Lin, G. Feng, Z. Huang, L. Michalek, W. Li, S.J. Harris, J.-C. Jiang, F. Abild-Pederson, J. Qin, Y. Cui, Z. Bao
+  venue: Nat. Chem.
+- year: 2024
+  title: A Transparent, Patternable, and Stretchable Conducting Polymer Solid Electrode for Dielectric Elastomer Actuators
+  url: https://doi.org/10.1002/adfm.202411880
+  authors: E. Kim, J.-C. Lai, L. Michalek, W. Wang, C. Xu, H. Lyu, W. Yu, H. Park, Y. Tomo, S.E. Root, B. Lee, J. Park, B. Park, S. Wei, C. Zhao, Z. Bao
+  venue: Advanced Functional Materials
+- year: 2024
+  title: Printable, stretchable metal-vapor-desorption layers for high-fidelity patterning in soft, freeform electronics
+  url: https://doi.org/10.1038/s41467-024-51585-2
+  authors: S. Jeong, H. Yoon, L. Michalek, G. Kim, J. Kim, J. Seo, D. Kim, H. Park, B. Lee, Y. Hong
+  venue: Nature Communications
+- year: 2024
+  title: Shape-memory-assisted self-healing of macroscopic punctures via high energy density periodic dynamic polymers with tunable actuation temperature
+  url: https://www.cell.com/matter/fulltext/S2590-2385(24)00143-7
+  authors: Y. Shi, C.B. Cooper, T. Nogusa, J.-C. Lai, H. Lyu, M. Khatib, C. Xu, L. Michalek, Z. Bao
+  venue: Matter
+- year: 2024
+  title: A Bioinspired Approach to Reversibly Metal Binding Interfaces
+  url: https://doi.org/10.1039/D4LP00010B
+  authors: A.C. Morrissey, V. Jayalatharachchi, L. Michalek, P. Egodawatta, N. Zaquen, L. Delafresnaye, C. Barner-Kowollik
+  venue: RSC Applied Polymers
+- year: 2024
+  title: Tuning polymer-backbone coplanarity and conformational order to achieve high-performance printed all-polymer solar cells
+  url: https://doi.org/10.1038/s41467-024-46493-4
+  authors: Y. Wu, Y. Yuan, D. Sorbelli, C. Cheng, L. Michalek, H.-W. Cheng, V. Jindal, S. Zhang, G. LeCroy, E.D. Gomez, S.T. Milner, A. Salleo, G. Galli, J.B. Asbury, M.F. Toney, Z. Bao
+  venue: Nature Communications
+- year: 2024
+  title: Tuning the Mobility of Indacenodithiophene-Based Conjugated Polymers via Coplanar Backbone Engineering
+  url: https://doi.org/10.1021/acs.chemmater.3c02006
+  authors: X. Ji, H.-W. Cheng, N.J. Schuster, G.S. LeCroy, S. Zhang, Y. Wu, L. Michalek, B.-N.T. Nguyen, J.A. Chong, M. Schrock, Y. Tomo, J. Rech, A. Salleo, S. Gam, G.H. Lee, J.B.-H. Tok, Z. Bao
+  venue: Chem. Mater.
+- year: 2024
+  title: Sequence-dependent self-assembly of supramolecular nanofibers in periodic dynamic block copolymers
+  url: https://doi.org/10.1039/d3ta06695a
+  authors: J.K. Phong, C.B. Cooper, L. Michalek, Y. Lin, Y. Nishio, Y. Shi, H. Gong, J.A. Vigil, J. Ilavsky, I. Kuzmenko, Z. Bao
+  venue: Journal of Materials Chemistry A
+- year: 2023
+  title: Environmentally Stable and Stretchable Polymer Electronics Enabled by Surface-Tethered Nanostructured Molecular-Level Protection
+  url: https://doi.org/10.1038/s41565-023-01418-y
+  authors: Y. Zheng, L. Michalek, Q. Liu, Y. Wu, H. Kim, P. Sayavong, W. Yu, D. Zhong, C. Zhao, Z. Yu, J. Chiong, H. Gong, X. Ji, D. Liu, S. Zhang, N. Prine, Z. Zhang, W. Wang, J.B.-H. Tok, X. Gu, Y. Cui, J. Kang, Z. Bao
+  venue: Nature Nanotechnology
+  roles:
+  - second
+  selected: true
+- year: 2023
+  title: Degradable semiconducting polymers without long-range order for on-demand degradation of transient electronics
+  url: https://doi.org/10.1039/D3TC03079B
+  authors: J.A. Chiong, L. Michalek, A. Peña-Alcántara, X. Ji, N.J. Shuster, Z. Bao
+  venue: Journal of Materials Chemistry C
+  roles:
+  - second
+- year: 2023
+  title: Autonomous alignment and healing in multilayer soft electronics using immiscible dynamic polymers
+  url: https://doi.org/10.1126/science.adh0619
+  authors: C.B. Cooper, S.E. Root, L. Michalek, S. Wu, J.-C. Lai, M. Khatib, S.T. Oyakhire, R. Zhao, J. Qin, Z. Bao
+  venue: Science
+- year: 2023
+  title: Tunable 1D and 2D Polyacrylonitrile Nanosheet Superstructures
+  url: https://doi.org/10.1021/acsnano.3c05792
+  authors: H. Gong, D. Uruchurtu Patino, J. Ilavsky, I. Kuzmenko, A. Peña-Alcántara, C. Zhu, A.H. Coffey, L. Michalek, A. Elabd, X. Gao, C. Chen, C. Xu, H. Yan, Y. Jiang, W. Wang, Y. Peng, Y. Zeng, H. Lyu, H. Moon, Z. Bao
+  venue: ACS Nano
+- year: 2023
+  title: Effect of Molecular Weight on the Morphology of a Polymer Semiconductor-Thermoplastic Elastomer Blend
+  url: https://doi.org/10.1002/aelm.202201055
+  authors: A. Peña-Alcántara, S. Nikzad, L. Michalek, N. Prine, Y. Wang, H. Gong, E. Ponte, S. Schneider, Y. Wu, S.E. Root, M. He, J.B.-H. Tok, X. Gu, Z. Bao
+  venue: Advanced Electronic Materials
+- year: 2023
+  title: Genetically targeted chemical assembly of polymers specifically localized extracellularly to surface membranes of living neurons
+  url: https://doi.org/10.1126/sciadv.adi1870
+  authors: A. Zhang, K.Y. Loh, C.S. Kadur, L. Michalek, J. Dou, C. Ramakrishnan, Z. Bao, K. Deisseroth
+  venue: Science Advances
+- year: 2023
+  title: Shear-aligned large-area organic semiconductor crystals through extended π-π interaction
+  url: https://doi.org/10.1039/D3TC01311A
+  authors: S. Zhang, F. Talnack, T. Jousselin-Oba, V. Bhat, Y. Wu, Y. Lei, Y. Tomo, H. Gong, L. Michalek, D. Zhong, C. Wu, A. Yassar, S. Mannsfeld, C. Risko, M. Frigoli, Z. Bao
+  venue: Journal of Materials Chemistry C
+- year: 2022
+  title: A Versatile Light-Triggered Radical-Releasing Surface Coating Technology
+  url: https://doi.org/10.1002/admt.202100898
+  authors: N.R. Boase, L. Michalek, J.P. Hooker, K.E. Fairfull-Smith
+  venue: Advanced Materials Technologies
+  roles:
+  - second
+- year: 2022
+  title: Photostationary State in Dynamic Covalent Networks
+  url: https://doi.org/10.1021/acsmacrolett.2c00097
+  authors: L.C. Chambers, C. Barner-Kowollik, L. Barner, L. Michalek, H. Frisch
+  venue: ACS Macro Letters
+  roles:
+  - corresponding
+- year: 2022
+  title: Light-Gated Control of Conformational Changes in Polymer Brushes
+  url: https://doi.org/10.1002/admt.202100347
+  authors: S. Bialas, T. Krappitz, S. Walden, K. Kalayci, D. Kodura, H. Frisch, J. MacLeod, A. Nelson, L. Michalek, C. Barner-Kowollik
+  venue: Advanced Materials Technologies
+  roles:
+  - corresponding
+- year: 2022
+  title: Realizing Intrinsically Stretchable Semiconducting Polymer Films by Nontoxic Additives
+  url: https://doi.org/10.1021/acsmaterialslett.2c00749
+  authors: H.-W. Cheng, S. Zhang, L. Michalek, X. Ji, S. Luo, C.B. Cooper, H. Gong, S. Nikzad, J.A. Chiong, Y. Wu, Y. Zheng, Q. Liu, D. Zhong, Y. Lei, Y. Tomo, K.-H. Wei, D. Zhou, J.B.-H. Tok, Z. Bao
+  venue: ACS Materials Letters
+- year: 2022
+  title: A Versatile and Straightforward Process to Turn Plastics into Antibacterial Materials
+  url: https://doi.org/10.1039/D1PY01344K
+  authors: S. Hadiouch, M. Maresca, D. Gigmes, G. Machado, A. Maurel-Pantel, S. Frik, J. Saunier, A. Deniset-Besseau, N. Yagoubi, L. Michalek, C. Barner-Kowollik, Y. Guillaneuf, C. Lefay
+  venue: Polymer Chemistry
+- year: 2021
+  title: UV-Induced Photolysis of Polyurethanes
+  url: https://doi.org/10.1039/D1CC00124H
+  authors: C. Petit, J. Bachmann, L. Michalek, Y. Catel, E. Blasco, J. Blinco, A. Unterreiner, C. Barner-Kowollik
+  venue: Chemical Communications
+- year: 2021
+  title: Chain-Length-Dependent Photolysis of ortho-Nitrobenzyl-centred Polymers
+  url: https://doi.org/10.1021/acsmacrolett.1c00057
+  authors: J. Bachmann, C. Petit, L. Michalek, Y. Catel, E. Blasco, J. Blinco, A. Unterreiner, C. Barner-Kowollik
+  venue: ACS Macro Letters
+- year: 2020
+  title: Mapping Photochemical Reactivity Profiles on Surfaces
+  url: https://doi.org/10.1021/jacs.0c11485
+  authors: L. Michalek, T. Krappitz, K. Mundsinger, S.L. Walden, L. Barner, C. Barner-Kowollik
+  venue: Journal of the American Chemical Society
+  roles:
+  - first
+  selected: true
+- year: 2020
+  title: 2D Fabrication of Tunable Responsive Interpenetrating Polymer Networks from a Single Photoresist
+  url: https://doi.org/10.1002/adfm.202005328
+  authors: L. Michalek, S. Bialas, S.L. Walden, F.R. Bloesser, H. Frisch, C. Barner-Kowollik
+  venue: Advanced Functional Materials
+  roles:
+  - first
+- year: 2020
+  title: 'Two Grapes Short of a Fruit Salad: Raspberry-, Strawberry-, and Seedpod-Like Organic Microspheres via Colloidal Nanotemplating'
+  url: https://doi.org/10.1021/acsmacrolett.0c00688
+  authors: K. Mundsinger, C.W. Schmitt, L. Michalek, M. Susewind, T. Hofe, C. Barner-Kowollik, L. Barner
+  venue: ACS Macro Letters
+- year: 2020
+  title: Wavelength-Selective Folding of Single Polymer Chains with Different Colors of Visible Light
+  url: https://doi.org/10.1002/marc.201900414
+  authors: H. Frisch, D. Kodura, F.R. Bloesser, L. Michalek, C. Barner-Kowollik
+  venue: Macromolecular Rapid Communications
+- year: 2019
+  title: Quantifying Solvent Effects on Polymer Surface Grafting
+  url: https://doi.org/10.1021/acsmacrolett.9b00336
+  authors: L. Michalek, K. Mundsinger, L. Barner, C. Barner-Kowollik
+  venue: ACS Macro Letters
+  roles:
+  - first
+- year: 2019
+  title: The Long and the Short of Polymer Grafting
+  url: https://doi.org/10.1039/c8py01470a
+  authors: L. Michalek, K. Mundsinger, C. Barner-Kowollik, L. Barner
+  venue: Polymer Chemistry
+  roles:
+  - first
+- year: 2019
+  title: Access to Disparate Soft Matter Materials by Curing with Two Colors of Light
+  url: https://doi.org/10.1002/adma.201807288
+  authors: S. Bialas, L. Michalek, D.E. Marschner, T. Krappitz, M. Wegener, J. Blinco, E. Blasco, H. Frisch, C. Barner-Kowollik
+  venue: Advanced Materials
+  roles:
+  - second
+- year: 2019
+  title: Adaptable and Reprogrammable Surfaces
+  url: https://doi.org/10.1002/adma.201902665
+  authors: A.S. Goldmann, N.R. Boase, L. Michalek, J. Blinco, A. Welle, C. Barner-Kowollik
+  venue: Advanced Materials
+- year: 2018
+  title: 'Polymer on Top: Current Limits and Future Perspectives of Quantitatively Evaluating Surface Grafting'
+  url: https://doi.org/10.1002/adma.201706321
+  authors: L. Michalek, L. Barner, C. Barner-Kowollik
+  venue: Advanced Materials
+  roles:
+  - first
+- year: 2018
+  title: The role of Surface Oxides on Hydrogen Sorption Kinetics in Titanium Thin Films
+  url: https://ui.adsabs.harvard.edu/abs/2018ApSS..441..324H/abstract
+  authors: E. Hadjixenophontos, L. Michalek, M. Roussel, M. Hirscher, G. Schmitz
+  venue: Applied Surface Science
+  roles:
+  - second
+- year: 2018
+  title: Hydrogen Sorption Kinetics in MgH2 and TiH2 Thin Films
+  url: https://www.scientific.net/DDF.383.127
+  authors: E. Hadjixenophontos, L. Michalek, A. Weigel, G. Schmitz
+  venue: Defect Diffusion Forum
+  roles:
+  - second
+- year: 2018
+  title: A Subtractive Photoresist Platform for Micro- and Macroscopic 3D Printed Structures
+  url: https://doi.org/10.1002/adfm.201801405
+  authors: M.M. Zieger, P. Mueller, E. Blasco, C. Petit, V. Hahn, L. Michalek, H. Mutlu, M. Wegener, C. Barner-Kowollik
+  venue: Advanced Functional Materials
+- year: 2018
+  title: Polyselenoureas via Multicomponent Polymerizations Using elemental selenium as monomer
+  url: https://doi.org/10.1021/acsmacrolett.8b00428
+  authors: B.T. Tuten, F.R. Bloesser, D. Marshall, L. Michalek, C.W. Schmitt, S.J. Blanksby, C. Barner-Kowollik
+  venue: ACS Macro Letters
+- year: 2018
+  title: Engineering Nitroxide Functional Surfaces Using Bioinspired Adhesion
+  url: https://doi.org/10.1021/acs.langmuir.7b03755
+  authors: H. Woehlk, J. Steinkoenig, C. Lang, L. Michalek, V. Trouillet, P. Krolla, A.S. Goldmann, L. Barner, J.P. Blinco, C. Barner-Kowollik, K.E. Fairfull-Smith
+  venue: Langmuir
+- year: 2015
+  title: A Monolithic Hybrid Cellulose-2.5-Acetate/Polymer Bioreactor for Biocatalysis under Continuous Liquid-Liquid Conditions Using a Supported Ionic Liquid Phase
+  url: https://doi.org/10.1002/chem.201501618
+  authors: B. Sandig, L. Michalek, S. Vlahovic, M. Antonovici, B. Hauer, M.R. Buchmeiser
+  venue: Chem. Eur. J.
+  roles:
+  - second
