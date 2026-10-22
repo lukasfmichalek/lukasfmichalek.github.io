@@ -17,9 +17,9 @@ title: "Lukas F. Michalek"
 name: &name "Lukas Michalek"
 email: lukasmi@stanford.edu
 description: >-
-  Research Scientist at Stanford University. Polymer chemistry, nanomechanics and
-  infrared nanospectroscopy of soft and polymeric materials, and the instruments
-  needed to measure them.
+  Research Scientist at Stanford University. Characterization methods that connect
+  processing, structure and properties in functional polymers, from polymer
+  chemistry to nanomechanics and infrared nanospectroscopy.
 
 url: "https://lukasfmichalek.github.io"
 baseurl: ""                                # must stay empty for a user site

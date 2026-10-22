@@ -7,13 +7,13 @@ description: "Publications, patents and invited talks of Lukas F. Michalek."
 
 {% assign pubs = site.data.publications %}
 {% assign years = pubs | map: "year" | uniq %}
-{% assign lead_count = 0 %}{% for p in pubs %}{% if p.roles %}{% assign lead_count = lead_count | plus: 1 %}{% endif %}{% endfor %}
+{% assign lead_count = 0 %}{% assign journal_count = 0 %}{% for p in pubs %}{% if p.roles %}{% assign lead_count = lead_count | plus: 1 %}{% endif %}{% unless p.type %}{% assign journal_count = journal_count | plus: 1 %}{% endunless %}{% endfor %}
 
 <section class="page-head">
   <div class="wrap">
     <span class="eyebrow">Publications</span>
     <h1>Publications and talks</h1>
-    <p class="lede">{{ pubs | size }} publications across polymer chemistry, soft electronics, energy materials and nanoscale measurement, {{ lead_count }} of them as first, second, last or corresponding author. Google Scholar and ORCID have the most current record.</p>
+    <p class="lede">{{ pubs | size }} publications, preprints included, across polymer chemistry, soft electronics, energy materials and nanoscale measurement, {{ lead_count }} of them as first, second, last or corresponding author. Google Scholar and ORCID have the most current record.</p>
     <div class="link-row">
       <a href="https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
       <a href="https://orcid.org/0000-0002-2257-5038" target="_blank" rel="noopener">ORCID &#8599;</a>
@@ -56,6 +56,7 @@ description: "Publications, patents and invited talks of Lukas F. Michalek."
         <h2 class="block-title">Selected talks</h2>
         <ul class="entries">
           <li class="entry"><span class="when">2026</span><div><div class="what">Invited talk</div><div class="detail">MRS Fall Meeting, Boston</div></div></li>
+          <li class="entry"><span class="when">2026</span><div><div class="what">Chemistry-Selective Photothermal Analysis of Heterogeneous Polymer Films</div><div class="detail">Invited, Exploring Chemistry Beyond the Diffraction Limit, Stanford</div></div></li>
           <li class="entry"><span class="when">2026</span><div><div class="what">PRIMA: Photothermal Resonant Infrared Mechanical Analysis</div><div class="detail">APS Global Physics Summit, Denver</div></div></li>
           <li class="entry"><span class="when">2024</span><div><div class="what">The Next Evolution of Composite Materials Through Intimate Molecular Interfaces</div><div class="detail">Invited, ACS Fall Future Faculty Symposium, Denver</div></div></li>
           <li class="entry"><span class="when">2024</span><div><div class="what">Advancement in Characterization of Materials for Stretchable Electronics</div><div class="detail">Invited seminar, Heidelberg University</div></div></li>

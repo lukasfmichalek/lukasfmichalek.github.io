@@ -32,8 +32,8 @@ permalink: /
   <div class="wrap split">
     <div class="prose-body">
       <h2 class="mt-0">About</h2>
-      <p>I am a Research Scientist at Stanford University, working in the group of Zhenan Bao in Chemical Engineering and at nano@Stanford, the university's shared nanofabrication and characterization facilities.</p>
-      <p>My research asks how chemistry and processing set the nanoscale structure, mechanics and function of polymers, and how to measure those properties in heterogeneous, real materials rather than idealized ones. I combine polymer and surface chemistry with scanning probe microscopy and infrared nanospectroscopy, and develop new measurement methods where existing ones fall short. One example is PRIMA, which measures the thermomechanical response of individual phases in polymer blends.</p>
+      <p>I am a Research Scientist at Stanford University in the group of Zhenan Bao in Chemical Engineering, where I also lead metrology development and support in nano@Stanford, the university's shared nanofabrication and characterization facilities.</p>
+      <p>My research develops characterization methods that connect processing, structure and properties in functional polymers. It asks how chemistry and processing set the nanoscale structure, mechanics and function of polymers, and how to measure those properties in heterogeneous, real materials rather than idealized ones. I combine polymer and surface chemistry with scanning probe microscopy and infrared nanospectroscopy, and develop new measurement methods where existing ones fall short. One example is PRIMA, which measures the thermomechanical response of individual phases in polymer blends.</p>
       <p>I trained in materials science at the University of Stuttgart and completed my PhD in polymer surface chemistry with Christopher Barner-Kowollik at Queensland University of Technology, before joining Stanford as a DFG Walter Benjamin Fellow.</p>
     </div>
     <dl class="facts">
@@ -44,9 +44,11 @@ permalink: /
       <dt>Selected recognition</dt>
       <dd>
         <ul>
+          <li>C-ShaRP Academy Award, Stanford, 2026</li>
           <li>PMSE Future Faculty Award, ACS Fall 2024</li>
           <li>NSF Future Faculty Workshop on Soft Matter, 2023</li>
           <li>Young Scientist Assembly Award, IMC20, 2023</li>
+          <li>NNCI National Image Contest winner, 2022</li>
           <li>Lindau Nobel Laureate Meeting Fellow, 2021</li>
           <li>DFG Walter Benjamin Fellowship, 2021</li>
         </ul>
@@ -95,7 +97,7 @@ permalink: /
     <div>
       <h2 class="mt-0" style="margin-bottom:20px;">News</h2>
       <ul class="news">
-        {% for item in site.data.news limit: 6 %}
+        {% for item in site.data.news limit: 7 %}
         <li>
           <span class="when">{{ item.when }}</span>
           <span>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</span>
