@@ -1,6 +1,6 @@
 {% comment %}
   Image slot. Shows the image if the file exists in the repo, otherwise a labelled placeholder.
-  Params: path (required, e.g. /assets/images/research/theme-1.jpg), alt, label, ratio (CSS aspect-ratio, default 4 / 3), caption, fit (cover|contain)
+  Params: path (required, e.g. /assets/images/research/theme-1.jpg), alt, label, ratio (CSS aspect-ratio, default 4 / 3), caption, fit (cover|contain), link (true opens the full-size file)
   To fill a slot, add a file at exactly that path.
 {% endcomment %}
 {% assign slot_file = site.static_files | where: "path", include.path | first %}
@@ -8,7 +8,7 @@
 <figure class="img-slot{% if include.class %} {{ include.class }}{% endif %}">
   {% if slot_file %}
     <div class="img-frame" style="aspect-ratio: {{ slot_ratio }};">
-      <img src="{{ include.path | relative_url }}" alt="{{ include.alt | default: include.label }}" loading="lazy"{% if include.fit == "contain" %} style="object-fit: contain;"{% endif %}>
+      {% if include.link %}<a href="{{ include.path | relative_url }}" target="_blank" rel="noopener" title="Open full size">{% endif %}<img src="{{ include.path | relative_url }}" alt="{{ include.alt | default: include.label }}" loading="lazy"{% if include.fit == "contain" %} style="object-fit: contain;"{% endif %}>{% if include.link %}</a>{% endif %}
     </div>
   {% else %}
     <div class="img-frame img-placeholder" style="aspect-ratio: {{ slot_ratio }};" role="img" aria-label="Image placeholder: {{ include.label }}">
