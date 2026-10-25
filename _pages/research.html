@@ -19,7 +19,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
       <a href="#interfaces"><span class="n">01</span>Polymer chemistry at surfaces and interfaces</a>
       <a href="#soft-electronics"><span class="n">02</span>Processing, structure and properties</a>
       <a href="#nanomechanics"><span class="n">03</span>Nanomechanics of soft matter</a>
-      <a href="#instruments"><span class="n">04</span>Measurement physics and instruments</a>
+      <a href="#instruments"><span class="n">04</span>Instruments for data-driven discovery</a>
       <a href="#approach"><span class="n">&rarr;</span>Approach and collaborators</a>
     </div>
   </div>
@@ -29,7 +29,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
   <div class="wrap">
 
     <div class="theme" id="interfaces">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-1-interfaces.jpg" label="Theme 1 figure: grafting, photochemistry or brush structuring" %}</div>
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-1-interfaces.jpg" label="Theme 1 figure: grafting, photochemistry or brush structuring" alt="Schematic of quantitative polymer surface grafting: grafting density, theory, calculation, limits and error, with a rendered polymer brush and photoreactivity comparison" fit="contain" link=true %}</div>
       <div class="theme-body">
         <span class="theme-n">01</span>
         <h2 class="mt-0">Polymer chemistry at surfaces and interfaces</h2>
@@ -46,7 +46,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
     </div>
 
     <div class="theme reverse" id="soft-electronics">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-2-soft-electronics.jpg" label="Theme 2 figure: blend morphology, stretched device or interphase" %}</div>
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-2-soft-electronics.jpg" label="Theme 2 figure: blend morphology, stretched device or interphase" alt="Material properties versus secondary component fraction, with nanomechanical maps showing how blend morphology changes and where synergetic effects appear" fit="contain" link=true %}</div>
       <div class="theme-body">
         <span class="theme-n">02</span>
         <h2 class="mt-0">Processing, structure and properties of soft electronic and energy materials</h2>
@@ -63,7 +63,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
     </div>
 
     <div class="theme" id="nanomechanics">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-3-nanomechanics.jpg" label="Theme 3 figure: modulus or viscoelastic map" %}</div>
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-3-nanomechanics.jpg" label="Theme 3 figure: modulus or viscoelastic map" alt="Nanomechanics via AFM: intermittent contact phase, mechanical modulus imaging, force modulation loss tangent and force spectroscopy" fit="contain" link=true %}</div>
       <div class="theme-body">
         <span class="theme-n">03</span>
         <h2 class="mt-0">Nanomechanics and thermomechanics of soft matter</h2>
@@ -79,13 +79,14 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
     </div>
 
     <div class="theme reverse" id="instruments">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-4-instruments.jpg" label="Theme 4 figure: PRIMA or PRIMA-nDMA data" %}</div>
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-4-instruments.jpg" label="Instrument-driven polymer discovery" alt="Schematic: a hyphenated operando AFM platform gives sparse, high-resolution mechanistic data; high-throughput surrogate measurements map the parameter space densely at lower resolution; a machine learning data platform fuses both, uses active learning to select samples, and drives polymer materials discovery." fit="contain" link=true caption="Click the figure to view it full size." %}</div>
       <div class="theme-body">
         <span class="theme-n">04</span>
-        <h2 class="mt-0">Measurement physics and instrument development</h2>
-        <p class="theme-q">What else can an existing instrument measure if you change how you drive it?</p>
+        <h2 class="mt-0">Instrument development for data-driven polymer discovery</h2>
+        <p class="theme-q">What else can an existing instrument measure if you change how you drive it, and how do you scale that to the number of samples that materials discovery needs?</p>
         <p>Many of the capabilities soft materials need are latent in commercial instruments. PRIMA (Photothermal Resonant Infrared Mechanical Analysis) uses chemistry-selective infrared heating in AFM-IR to probe thermomechanical transitions of individual phases in polymer blends, rather than heating the whole sample. PRIMA-nDMA adds nanoscale dynamic mechanical analysis to resolve the viscoelastic response of each phase, in collaboration with NIST, Bruker and the University of Maryland.</p>
-        <p>Current work focuses on quantitative temperature calibration and modeling, and on faster surrogate protocols. The aim is to generate large, realistic datasets of the kind polymer machine learning currently lacks, including imperfect and failed materials. This builds on earlier development of a laser-coupled AFM for dynamic polymer networks at QUT.</p>
+        <p>The next step is to turn these methods into infrastructure for polymer discovery. A hyphenated AFM platform will combine localized heating, nanomechanics, viscoelastic mapping and electrical readout on the same sample under operando conditions. It yields relatively few data points, but each one is high-resolution and mechanistic. Faster surrogate measurements, such as optical pump-probe or rapid thermal screening on multi-sample arrays, will cover broad processing parameter sweeps at lower resolution.</p>
+        <p>A shared machine learning platform fuses the two data streams and uses active learning to decide which samples deserve the slower, detailed measurement. The result should be open datasets of real polymers, including imperfect and failed materials, which predictive models currently lack. This builds on quantitative temperature calibration of PRIMA with NIST, and on earlier development of a laser-coupled AFM for dynamic polymer networks at QUT.</p>
         <ul class="key-papers">
           <li><a href="https://doi.org/10.1002/smll.202514518">PRIMA: Localized Thermomechanical Measurements of Polymers and Blends</a>, <em>Small</em> 2026</li>
           <li><a href="https://doi.org/10.26434/chemrxiv.15000735/v4">Spatially-Resolved Viscoelastic Response with AFM-IR</a>, <em>ChemRxiv</em> 2026</li>
@@ -101,7 +102,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
     <div class="split">
       <div>
         <h2 class="mt-0">Approach</h2>
-        <p class="prose-body" style="color:var(--muted-strong); max-width:66ch;">The four threads share one goal: measuring polymers at the length scales where they are heterogeneous, and under the conditions in which they are processed and used. The next steps are hyphenated AFM platforms that combine thermal, mechanical and electrical modes at the same location, measurements under strain, and open datasets that connect experimental polymer science to data-driven design.</p>
+        <p class="prose-body" style="color:var(--muted-strong); max-width:66ch;">The four threads share one goal: measuring polymers at the length scales where they are heterogeneous, and under the conditions in which they are processed and used. In practice that means choosing the measurement for the question, checking it against independent methods, and reporting data so that others can reuse it.</p>
         <div class="approach-grid" style="margin-top:28px;">
           <div class="course">
             <h3>Atomic force microscopy</h3>
@@ -122,7 +123,7 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
         </div>
       </div>
       <div>
-        {% include img-slot.html path="/assets/images/lab/portrait-instrument.jpg" label="Photo: you at the AFM-IR or in the facility" ratio="4 / 5" %}
+        {% include img-slot.html path="/assets/images/lab/portrait-instrument.jpg" label="At the AFM-IR" alt="Lukas Michalek adjusting an AFM-IR setup, with nanoscale maps on the monitor behind him" ratio="4 / 3" %}
       </div>
     </div>
 
