@@ -1,13 +1,6 @@
-# Publications, newest year first. Within a year, papers where Lukas is first,
-# second, last or corresponding author come first. Keep in sync with the ORCID export.
-# roles: first | second | last | corresponding ; selected: true shows it on the homepage
-- year: 2026
-  title: Solvent-Mediated Diffusion Enables Directed Functionalization of Polymer Semiconductor Interfaces
-  url: https://doi.org/10.1021/acsami.6c07306
-  authors: M. Schrock, L. Michalek, Q.-G. Chen, Q. Liu, R.K. Mow, Y. Shi, Z. Bao
-  venue: ACS Appl. Mater. Interfaces
-  roles:
-  - second
+# Publications, newest year first. Within a year, papers where Lukas is first, co-first,
+# last or corresponding author come first; second-author papers follow them. Keep in sync with the ORCID export.
+# roles: first | co-first | last | corresponding ; selected: true shows it on the homepage
 - year: 2026
   title: Spatially-Resolved Viscoelastic Response with AFM-IR
   url: https://doi.org/10.26434/chemrxiv.15000735/v4
@@ -34,6 +27,11 @@
   venue: Chem. Eur. J.
   roles:
   - corresponding
+- year: 2026
+  title: Solvent-Mediated Diffusion Enables Directed Functionalization of Polymer Semiconductor Interfaces
+  url: https://doi.org/10.1021/acsami.6c07306
+  authors: M. Schrock, L. Michalek, Q.-G. Chen, Q. Liu, R.K. Mow, Y. Shi, Z. Bao
+  venue: ACS Appl. Mater. Interfaces
 - year: 2026
   title: Biofunctionalized polymer semiconductors toward soft and stretchable transistor-based biosensors
   url: https://doi.org/10.1126/sciadv.aec2641
@@ -145,16 +143,12 @@
   url: https://www.nature.com/articles/s41565-023-01418-y
   authors: Y. Zheng, L. Michalek, Q. Liu, Y. Wu, H. Kim, P. Sayavong, W. Yu, D. Zhong, C. Zhao, Z. Yu, J.A. Chiong, H. Gong, X. Ji, D. Liu, S. Zhang, N. Prine, Z. Zhang, W. Wang, J.B.-H. Tok, X. Gu, Y. Cui, J. Kang, Z. Bao
   venue: Nat. Nanotechnol.
-  roles:
-  - second
   selected: true
 - year: 2023
   title: Degradable semiconducting polymers without long-range order for on-demand degradation of transient electronics
   url: https://pubs.rsc.org/en/content/articlelanding/2023/tc/d3tc03079b
   authors: J.A. Chiong, L. Michalek, A. Peña-Alcántara, X. Ji, N.J. Schuster, Z. Bao
   venue: J. Mater. Chem. C
-  roles:
-  - second
 - year: 2023
   title: Autonomous alignment and healing in multilayer soft electronics using immiscible dynamic polymers
   url: https://doi.org/10.1126/science.adh0619
@@ -181,13 +175,6 @@
   authors: S. Zhang, F. Talnack, T. Jousselin-Oba, V. Bhat, Y. Wu, Y. Lei, Y. Tomo, H. Gong, L. Michalek, D. Zhong, C. Wu, A. Yassar, S. Mannsfeld, C. Risko, M. Frigoli, Z. Bao
   venue: J. Mater. Chem. C
 - year: 2022
-  title: A Versatile Light-Triggered Radical-Releasing Surface Coating Technology
-  url: https://doi.org/10.1002/admt.202100898
-  authors: N.R. Boase, L. Michalek, J.P. Hooker, K.E. Fairfull-Smith
-  venue: Adv. Mater. Technol.
-  roles:
-  - second
-- year: 2022
   title: Photostationary State in Dynamic Covalent Networks
   url: https://doi.org/10.1021/acsmacrolett.2c00097
   authors: L.C. Chambers, C. Barner-Kowollik, L. Barner, L. Michalek, H. Frisch
@@ -201,6 +188,11 @@
   venue: Adv. Mater. Technol.
   roles:
   - corresponding
+- year: 2022
+  title: A Versatile Light-Triggered Radical-Releasing Surface Coating Technology
+  url: https://doi.org/10.1002/admt.202100898
+  authors: N.R. Boase, L. Michalek, J.P. Hooker, K.E. Fairfull-Smith
+  venue: Adv. Mater. Technol.
 - year: 2022
   title: Realizing Intrinsically Stretchable Semiconducting Polymer Films by Nontoxic Additives
   url: https://doi.org/10.1021/acsmaterialslett.2c00749
@@ -266,7 +258,7 @@
   authors: S. Bialas, L. Michalek, D.E. Marschner, T. Krappitz, M. Wegener, J. Blinco, E. Blasco, H. Frisch, C. Barner-Kowollik
   venue: Adv. Mater.
   roles:
-  - second
+  - co-first
 - year: 2019
   title: Adaptable and Reprogrammable Surfaces
   url: https://doi.org/10.1002/adma.201902665
@@ -284,15 +276,11 @@
   url: https://www.sciencedirect.com/science/article/pii/S0169433218303878
   authors: E. Hadjixenophontos, L. Michalek, M. Roussel, M. Hirscher, G. Schmitz
   venue: Appl. Surf. Sci.
-  roles:
-  - second
 - year: 2018
   title: Hydrogen Sorption Kinetics in MgH2 and TiH2
   url: https://www.scientific.net/DDF.383.127
   authors: E. Hadjixenophontos, L. Michalek, A. Weigel, G. Schmitz
   venue: Defect Diffus. Forum
-  roles:
-  - second
   type: conference
 - year: 2018
   title: A Subtractive Photoresist Platform for Micro- and Macroscopic 3D Printed Structures
@@ -314,5 +302,3 @@
   url: https://doi.org/10.1002/chem.201501618
   authors: B. Sandig, L. Michalek, S. Vlahovic, M. Antonovici, B. Hauer, M.R. Buchmeiser
   venue: Chem. Eur. J.
-  roles:
-  - second

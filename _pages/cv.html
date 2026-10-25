@@ -5,22 +5,12 @@ permalink: /cv/
 description: "Curriculum vitae of Lukas F. Michalek, Research Scientist at Stanford University."
 ---
 
-{% assign cv_path = "/assets/files/CV_Michalek.pdf" %}
-{% assign cv_file = site.static_files | where: "path", cv_path | first %}
 
 <section class="page-head">
   <div class="wrap">
     <span class="eyebrow">Curriculum vitae</span>
     <h1>CV</h1>
-    <p class="lede">A one-page summary. The full CV, with publications, talks and funding, is available as a PDF.</p>
-    <div class="btn-row" style="margin-top:24px;">
-      {% if cv_file %}
-      <a class="btn btn-primary" href="{{ cv_path | relative_url }}" target="_blank" rel="noopener">Download CV (PDF) &rarr;</a>
-      {% else %}
-      <span class="btn btn-disabled" title="Add the file at assets/files/CV_Michalek.pdf">CV PDF placeholder: assets/files/CV_Michalek.pdf</span>
-      {% endif %}
-      <a class="btn btn-outline-dark" href="{{ '/publications/' | relative_url }}">Publications</a>
-    </div>
+    <p class="lede">Positions, education, funding and awards. Publications, patents and talks are on the <a href="{{ '/publications/' | relative_url }}" style="color:var(--navy-800);">Publications</a> page; teaching, service and outreach have their own pages.</p>
   </div>
 </section>
 
@@ -70,7 +60,7 @@ description: "Curriculum vitae of Lukas F. Michalek, Research Scientist at Stanf
             <li>50 peer-reviewed publications</li>
             <li>h-index 22, more than 1,500 citations (Google Scholar)</li>
             <li>18 oral presentations, 9 as invited speaker</li>
-            <li>3 patents</li>
+            <li>2 patents, filed through Queensland University of Technology</li>
             <li>About USD 886,000 in competitive funding as chief or partner investigator</li>
           </ul>
         </dd>

@@ -13,7 +13,7 @@ description: "Publications, patents and invited talks of Lukas F. Michalek."
   <div class="wrap">
     <span class="eyebrow">Publications</span>
     <h1>Publications and talks</h1>
-    <p class="lede">{{ pubs | size }} publications, preprints included, across polymer chemistry, soft electronics, energy materials and nanoscale measurement, {{ lead_count }} of them as first, second, last or corresponding author. Google Scholar and ORCID have the most current record.</p>
+    <p class="lede">{{ pubs | size }} publications, preprints included, across polymer chemistry, soft electronics, energy materials and nanoscale measurement, {{ lead_count }} of them as first, last or corresponding author. Google Scholar and ORCID have the most current record.</p>
     <div class="link-row">
       <a href="https://scholar.google.com/citations?user=Bzq4YZ0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar &#8599;</a>
       <a href="https://orcid.org/0000-0002-2257-5038" target="_blank" rel="noopener">ORCID &#8599;</a>
@@ -25,10 +25,10 @@ description: "Publications, patents and invited talks of Lukas F. Michalek."
 <section class="section" style="padding-top:44px;">
   <div class="wrap">
     <div class="pub-toolbar">
-      <label><input type="checkbox" id="lead-toggle"> Show only first, second, last or corresponding author</label>
+      <label><input type="checkbox" id="lead-toggle"> Show only first, last or corresponding author</label>
       <span class="year-nav">{% for y in years %}<a href="#y{{ y }}">{{ y }}</a>{% endfor %}</span>
     </div>
-    <p style="color:var(--muted); font-size:0.92rem;">Within each year, papers on which I am first, second, last or corresponding author are listed first.</p>
+    <p style="color:var(--muted); font-size:0.92rem;">Within each year, papers on which I am first, last or corresponding author are listed first.</p>
 
     <div id="pub-root">
       {% for y in years %}
@@ -44,7 +44,11 @@ description: "Publications, patents and invited talks of Lukas F. Michalek."
     <div class="split-even" style="margin-top:72px;">
       <div>
         <h2 class="block-title">Patents</h2>
-        <p style="color:var(--muted-strong);">Three patents in light-gated adhesives and active stormwater treatment, arising from the surface chemistry work at QUT.</p>
+        <p style="color:var(--muted-strong);">Both patents come from the water-treatment interface chemistry developed with Queensland University of Technology.</p>
+        <ul class="entries">
+          <li class="entry"><span class="when">2025</span><div><div class="what"><a href="https://patents.google.com/patent/WO2025043301A1/en" target="_blank" rel="noopener" style="color:var(--ink);">Metal-binding compounds and metal complexes, methods of their preparation, and uses in the complexing of metal ions</a></div><div class="detail">A.C. Morrissey, V. Jayalatharachchi, C. Barner-Kowollik, L. Delafresnaye, <strong>L. Michalek</strong>, P. Egodawatta, N. Zaquen. International application WO 2025/043301 A1, published 6 March 2025. Applicant: Queensland University of Technology.</div></div></li>
+          <li class="entry"><span class="when">2025</span><div><div class="what"><a href="https://patents.google.com/patent/AU2025903236A0/en" target="_blank" rel="noopener" style="color:var(--ink);">PFAS removal compositions</a></div><div class="detail">C. Barner-Kowollik, L. Delafresnaye, P. Egodawatta, <strong>L. Michalek</strong>, A.C. Morrissey, F. Sbordone, B. van de Worp, N. Zaquen. Australian application AU 2025903236, filed 25 July 2025, pending. Applicant: Queensland University of Technology.</div></div></li>
+        </ul>
         <h2 class="block-title" style="margin-top:40px;">Theses</h2>
         <ul class="entries">
           <li class="entry"><span class="when">PhD, 2020</span><div><div class="what">Quantifying Macromolecular Growth and Hierarchical Structuring on Interfaces</div><div class="detail">Queensland University of Technology. Executive Dean's Commendation for Outstanding Doctoral Thesis.</div></div></li>
