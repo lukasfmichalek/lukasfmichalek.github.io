@@ -28,6 +28,17 @@
   roles:
   - corresponding
 - year: 2026
+  title: An intrinsically stretchable thin-film organic rechargeable sodium-ion battery enabled for wearable devices
+  url: https://www.cell.com/matter/fulltext/S2590-2385(26)00432-7
+  authors: X. Guo, Y. Lin, C.Y.J. Lim, Y. Shi, L. Michalek, T. Chen, H. Lyu, Y. Jiang, E. Zhang, Y.C.M. Wu, I.R. Choi, S. Vaidyanathan, Q. Liu, Y. Yao, H. Park, W. Wang, Y. Zhao, Z. Bao
+  venue: Matter
+- year: 2026
+  title: Interfacial Engineering Enabled High-Resolution Stretchable Metal-Level Conductive Lines and Transparent Conductor
+  url: https://arxiv.org/abs/2609.14311
+  authors: K. Chen, E.T. Zhao, W. Wang, Y. Zhao, K. Parkatzidis, L. Michalek, Y. Shi, E. Zhang, T. Chen, R. Wu, H. Lyu, Y. Yao, Y. Yuan, T. Chen, R.R. Zhou, S. Wei, J. Zhao, J.B.H. Tok, Z. Bao
+  venue: arXiv
+  type: preprint
+- year: 2026
   title: Solvent-Mediated Diffusion Enables Directed Functionalization of Polymer Semiconductor Interfaces
   url: https://doi.org/10.1021/acsami.6c07306
   authors: M. Schrock, L. Michalek, Q.-G. Chen, Q. Liu, R.K. Mow, Y. Shi, Z. Bao
