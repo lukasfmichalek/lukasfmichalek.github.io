@@ -432,7 +432,7 @@ p { margin: 0 0 1em; }
 
 /* ---------- footer ---------- */
 
-.site-footer { background: var(--navy-800); color: var(--on-navy-muted); padding: 56px 0 28px; }
+.site-footer { background: var(--navy-700); color: var(--on-navy-muted); padding: 56px 0 28px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
 .footer-brand { font-family: var(--font-serif); color: #fff; font-size: 1.1rem; margin-bottom: 10px; }
 .footer-blurb { max-width: 40ch; font-size: 0.92rem; }
