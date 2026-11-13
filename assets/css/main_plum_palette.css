@@ -575,7 +575,7 @@ p { margin: 0 0 1em; }
 .img-slot figcaption { font-size: 0.84rem; color: var(--muted); margin-top: 8px; }
 
 /* research cards on home */
-.theme-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.theme-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
 .theme-card { text-decoration: none; display: flex; flex-direction: column; gap: 14px; }
 .theme-card h3 { font-size: 1.05rem; margin: 0; }
 .theme-card p { color: var(--muted); font-size: 0.92rem; margin: 0; }

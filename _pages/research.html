@@ -2,24 +2,23 @@
 layout: default
 title: "Research"
 permalink: /research/
-description: "Research of Lukas F. Michalek: polymer surface chemistry, soft electronic and energy materials, nanomechanics of soft matter, and new AFM-IR measurement methods."
+description: "Research of Lukas F. Michalek: measurement science for the polymer interphase, interfaces written with light and solvent, and data-driven characterization that gets more information per instrument hour."
 ---
 
 <section class="page-head">
   <div class="wrap">
     <span class="eyebrow">Research</span>
-    <h1>How chemistry and processing shape polymers at the nanoscale.</h1>
-    <p class="lede">Polymers are rarely uniform. Their properties depend on how they were synthesized, attached to a surface or processed into a film, and the differences that matter often sit at length scales of tens of nanometers. My work connects polymer chemistry to those nanoscale structures and to the function of real materials, and develops the measurements needed to make that connection quantitative.</p>
+    <h1>Making buried polymer interfaces measurable.</h1>
+    <p class="lede">Blends, composites and stretchable devices succeed or fail in the few tens of nanometres around a polymer interface, where chain mobility, glass transition, modulus and conductance depart from the bulk. My research is organised around that length scale in three parts. I measure it with instruments that heat one phase and read it where it sits. I make interfaces with light and solvent whose width and chemistry are known in advance, so that the measurements have something to be tested against. And I model how a fast measurement can stand in for a slow one, so that an instrument spends its hours where they count.</p>
   </div>
 </section>
 
 <section class="section-tight">
   <div class="wrap">
     <div class="theme-toc">
-      <a href="#interfaces"><span class="n">01</span>Polymer chemistry at surfaces and interfaces</a>
-      <a href="#soft-electronics"><span class="n">02</span>Processing, structure and properties</a>
-      <a href="#nanomechanics"><span class="n">03</span>Nanomechanics of soft matter</a>
-      <a href="#instruments"><span class="n">04</span>Instruments for data-driven discovery</a>
+      <a href="#measure"><span class="n">01</span>Measure</a>
+      <a href="#make"><span class="n">02</span>Make</a>
+      <a href="#model"><span class="n">03</span>Model and data</a>
       <a href="#approach"><span class="n">&rarr;</span>Approach and collaborators</a>
     </div>
   </div>
@@ -28,68 +27,49 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
 <section class="section" style="padding-top:8px;">
   <div class="wrap">
 
-    <div class="theme" id="interfaces">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-1-interfaces.jpg" label="Theme 1 figure: grafting, photochemistry or brush structuring" alt="Schematic of quantitative polymer surface grafting: grafting density, theory, calculation, limits and error, with a rendered polymer brush and photoreactivity comparison" fit="contain" link=true %}</div>
+    <div class="theme" id="measure">
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-1-measure.jpg" label="Measure: PRIMA-nDMA" alt="Measure: an AFM probe is modulated in height and deflection while a pulsed infrared laser heats the sample through absorption; sweeping the repetition rate carries the material through its glass transition, seen as a peak in the loss tangent and a drop in storage modulus" fit="contain" link=true %}</div>
       <div class="theme-body">
         <span class="theme-n">01</span>
-        <h2 class="mt-0">Polymer chemistry at surfaces and interfaces</h2>
-        <p class="theme-q">How do you control what a polymer does at a surface, and how do you know you succeeded?</p>
-        <p>My PhD work quantified the limits of attaching polymers to surfaces, including how chain length and solvent quality set the achievable grafting density, and mapped photochemical reactivity across surfaces with spatial resolution. This led to light-controlled systems: wavelength-selective photoresists that form interpenetrating networks from a single resin, light-gated polymer brushes, and photolyzable brushes for subtractive 3D structuring with water and light.</p>
-        <p>The same chemistry now feeds applied interface problems, from bioinspired coatings that remove metals and fluorinated compounds from water to directed functionalization of polymer semiconductor interfaces. The water-treatment chemistry is the basis of two patent applications with QUT, on metal-binding compounds and on PFAS removal.</p>
+        <h2 class="mt-0">Measurement science for the polymer interphase</h2>
+        <p class="theme-q">What are the glass transition, modulus and loss tangent of a single phase that is only tens of nanometres wide, and how do you reach that phase when it is buried?</p>
+        <p>Many of the capabilities soft materials need are latent in instruments that already exist in shared facilities. PRIMA, Photothermal Resonant Infrared Mechanical Analysis, uses the pulsed infrared laser of a commercial AFM-IR instrument as a local heater that acts only on the phase whose vibrational band it is tuned to, with the temperature set by the pulse repetition rate and the mechanical response read by the tip. It resolved the softening of a 50 nm polylactide film and heated one phase of a blend at a time without warming the sample as a whole. PRIMA-nDMA adds a modulated indentation, so that storage and loss moduli are recorded while the laser carries the material through its glass transition, and it followed stress relaxation in a dynamic covalent network, in collaboration with NIST, Bruker and the University of Maryland.</p>
+        <p>The next steps are a temperature axis calibrated against melting standards, a glass transition read in seconds by sweeping the repetition rate under the modulated probe, access to buried interfaces by tip-based nanomachining that removes a film a few nanometres at a time without altering what it exposes, and the same measurements under strain, light and solvent, which are the conditions in which soft devices fail. Every measurement follows the reporting practice set out in our nanomechanics guide, and the instruments stay within reach of any laboratory with a stock AFM-IR system and a heating stage.</p>
         <ul class="key-papers">
-          <li><a href="https://doi.org/10.1002/adma.201706321">Polymer on Top</a>, <em>Adv. Mater.</em> 2018</li>
-          <li><a href="https://doi.org/10.1021/jacs.0c11485">Mapping Photochemical Reactivity Profiles on Surfaces</a>, <em>J. Am. Chem. Soc.</em> 2020</li>
-          <li><a href="https://doi.org/10.1002/adfm.202005328">Interpenetrating Polymer Networks from a Single Photoresist</a>, <em>Adv. Funct. Mater.</em> 2020</li>
-          <li><a href="https://doi.org/10.1021/acsami.6c07306">Directed Functionalization of Polymer Semiconductor Interfaces</a>, <em>ACS Appl. Mater. Interfaces</em> 2026</li>
+          <li><a href="https://doi.org/10.1002/smll.202514518">PRIMA: Localized Thermomechanical Measurements of Polymers and Blends with AFM-IR</a>, <em>Small</em> 2026</li>
+          <li><a href="https://doi.org/10.26434/chemrxiv.15000735/v4">PRIMA-nDMA: Spatially-Resolved Viscoelastic Response with AFM-IR</a>, <em>ChemRxiv</em> 2026</li>
         </ul>
       </div>
     </div>
 
-    <div class="theme reverse" id="soft-electronics">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-2-soft-electronics.jpg" label="Theme 2 figure: blend morphology, stretched device or interphase" alt="Material properties versus secondary component fraction, with nanomechanical maps showing how blend morphology changes and where synergetic effects appear" fit="contain" link=true %}</div>
+    <div class="theme reverse" id="make">
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-2-make.jpg" label="Make: adaptive networks and surface grafting" alt="Make: material properties against the fraction of a secondary component, with nanomechanical maps showing how morphology changes and where synergetic effects appear; side panels show an adaptive polymer network and surface-grafted chains" fit="contain" link=true %}</div>
       <div class="theme-body">
         <span class="theme-n">02</span>
-        <h2 class="mt-0">Processing, structure and properties of soft electronic and energy materials</h2>
-        <p class="theme-q">Why does the same formulation work in one film and fail in the next?</p>
-        <p>In stretchable electronics and batteries, performance is often set by nanoscale morphology and buried interfaces that bulk measurements average away. With the Bao Group and collaborators, I study how molecular weight, temperature and solution-state aggregation control phase separation in blends of conjugated polymers and elastomers, and how that morphology carries through to intrinsically stretchable transistors, circuits and biosensors.</p>
-        <p>The same approach extends to energy materials, including interphase formation at lithium-metal electrodes and self-segregated polymer electrolytes for solid-state batteries.</p>
+        <h2 class="mt-0">Interfaces written with light and solvent</h2>
+        <p class="theme-q">Can an interface be written with a stated width and chemistry, and does it then behave the way the chemistry in solution predicts?</p>
+        <p>Interfaces have their own chemistry. When I mapped wavelength-resolved photochemical reactivity on surfaces during my PhD, the profiles followed the surface absorption spectrum and lost the red shift seen in solution, and two ligation chemistries that behave alike in solution gave very different grafting densities. The same work showed that a single spin-coated blend of two photoreactive polymers forms one network, the other or an interpenetrating network depending only on the wavelength of light, which is the starting point for writing the interface between two networks with a stated width. In the Bao Group I measured the interfaces that decide whether a stretchable device lasts, including a covalently tethered protective layer only about 6 nm thick that kept transistors stable for weeks in water and sweat where thick encapsulants failed, and a solvent-mediated route that writes a functional molecule into a finished polymer film as a gradient or uniformly, set by whether the solvent swells the film.</p>
+        <p>In the future I want to understand what sets the width and the properties of an interface that is written rather than found. Does the delay between two exposures of a two-colour resin set the interphase between the networks by demixing, and does a joint fail there below a critical width? Does the work function of a contact follow the grafting density of a dipolar layer that light has dosed onto it, up to the point where the chains begin to stretch? And is the photostationary state of a photodynamic network governed by segmental mobility rather than photon flux, which would give a design rule for materials that yield only when light and load coincide? Each of these questions also supplies the measurements above with a specimen whose answer is known in advance.</p>
         <ul class="key-papers">
-          <li><a href="https://doi.org/10.1038/s41565-023-01418-y">Environmentally Stable and Stretchable Polymer Electronics</a>, <em>Nat. Nanotechnol.</em> 2023</li>
-          <li><a href="https://doi.org/10.1073/pnas.2516186123">Nanoconfined Aggregation in Conjugated Polymer and Elastomer Blends</a>, <em>PNAS</em> 2026</li>
-          <li><a href="https://doi.org/10.1038/s41928-026-01599-z">Intrinsically Stretchable Complementary Circuits</a>, <em>Nat. Electron.</em> 2026</li>
-          <li><a href="https://doi.org/10.1038/s41557-024-01689-5">Solid-Electrolyte Interphase at Li-Metal Potential</a>, <em>Nat. Chem.</em> 2025</li>
+          <li><a href="https://doi.org/10.1002/adfm.202005328">2D Fabrication of Tunable Responsive Interpenetrating Polymer Networks from a Single Photoresist</a>, <em>Adv. Funct. Mater.</em> 2020</li>
+          <li><a href="https://www.nature.com/articles/s41565-023-01418-y">Environmentally Stable and Stretchable Polymer Electronics Enabled by Surface-Tethered Molecular-Level Protection</a>, <em>Nat. Nanotechnol.</em> 2023</li>
+          <li><a href="https://doi.org/10.1021/jacs.0c11485">Mapping Photochemical Reactivity Profiles on Surfaces</a>, <em>J. Am. Chem. Soc.</em> 2020</li>
         </ul>
       </div>
     </div>
 
-    <div class="theme" id="nanomechanics">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-3-nanomechanics.jpg" label="Theme 3 figure: modulus or viscoelastic map" alt="Nanomechanics via AFM: intermittent contact phase, mechanical modulus imaging, force modulation loss tangent and force spectroscopy" fit="contain" link=true %}</div>
+    <div class="theme" id="model">
+      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-3-model-data.jpg" label="Model and data: two tiers, one platform" alt="Model and data: hyphenated measurements give low-density, high-resolution mechanistic ground truth; a high-throughput optical surrogate maps the processing landscape at high density and low resolution; a machine learning data platform fuses both, selects the samples that deserve the slow measurement and drives polymer materials discovery" fit="contain" link=true caption="Click the figure to view it full size." %}</div>
       <div class="theme-body">
         <span class="theme-n">03</span>
-        <h2 class="mt-0">Nanomechanics and thermomechanics of soft matter</h2>
-        <p class="theme-q">What is the modulus, loss tangent or glass transition of a single phase that is only tens of nanometers wide?</p>
-        <p>Soft and viscoelastic materials break many of the assumptions behind standard contact mechanics, so quantitative nanomechanics depends on careful choices of mode, calibration and reporting. I work on quantitative mapping of modulus and viscoelastic response in thin films, blends and polymer networks, on resolving subsurface structure, and on measurements under strain and temperature, which are the conditions in which soft devices typically fail.</p>
-        <p>Our STAR Protocols guide sets out mode selection, calibration and data-reporting practice for nanomechanical AFM of soft matter.</p>
+        <h2 class="mt-0">More information per instrument hour</h2>
+        <p class="theme-q">Which five samples out of fifty deserve the two-hour measurement, and how do you make the answer reusable by someone who was not in the room?</p>
+        <p>The measurements that explain a material are slow, and the number of samples that materials discovery needs is large. A surrogate is a fast measurement that stands in for a slow one, an optical photothermal or pump-probe reading of a film in seconds where a nanomechanical map takes hours, a multi-sample array where a single spot was measured before. On its own a surrogate is only a proxy. It becomes useful when the relation to the precise measurement is learned and its limits are known, so that the slow instrument is spent on the few samples where the proxy cannot decide. I treat the two as fidelities of one experiment and score the approach by how many precise measurements it saves on samples it has not seen, which turns the daily choice between high information on few points and high density on many from a habit into a number. The surrogate averages over a thermal diffusion length while the probe reads the top tens of nanometres of one phase, so where the transfer breaks down is as informative as where it holds.</p>
+        <p>None of this works without data that carry their own context, and most characterization data do not. Our nanomechanics guide sets out how a soft-matter AFM measurement should be reported so that someone else can reuse it; my first review asked the same of surface grafting, where numbers were routinely published without the information needed to compare them; and the self-healing multilayer electronics work showed what a quantified interface width, set between about 13 and 39 nm by processing, is worth at the device level. The aim is a machine-readable record for every measurement, with processing history, calibration, the decision it informed and a status of success or failure, released as open datasets that include the materials that did not work. On that foundation an instrument can begin to propose rather than only record, suggesting the next sample or the next processing condition while the scientist decides, and the same models that guide a measurement campaign can guide the design of new materials in chemistry and materials science, because they are trained on data that say how a material was made, not only what it became.</p>
         <ul class="key-papers">
-          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12166430/">A Guide for Nanomechanical Characterization of Soft Matter via AFM</a>, <em>STAR Protoc.</em> 2025</li>
-          <li><a href="https://doi.org/10.1126/science.adh0619">Autonomous Alignment and Healing in Multilayer Soft Electronics</a>, <em>Science</em> 2023</li>
-          <li><a href="https://doi.org/10.1002/smll.202514518">Localized Thermomechanical Measurements with AFM-IR</a>, <em>Small</em> 2026</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="theme reverse" id="instruments">
-      <div class="theme-art">{% include img-slot.html path="/assets/images/research/theme-4-instruments.jpg" label="Instrument-driven polymer discovery" alt="Schematic: a hyphenated operando AFM platform gives sparse, high-resolution mechanistic data; high-throughput surrogate measurements map the parameter space densely at lower resolution; a machine learning data platform fuses both, uses active learning to select samples, and drives polymer materials discovery." fit="contain" link=true caption="Click the figure to view it full size." %}</div>
-      <div class="theme-body">
-        <span class="theme-n">04</span>
-        <h2 class="mt-0">Instrument development for data-driven polymer discovery</h2>
-        <p class="theme-q">What else can an existing instrument measure if you change how you drive it, and how do you scale that to the number of samples that materials discovery needs?</p>
-        <p>Many of the capabilities soft materials need are latent in commercial instruments. PRIMA (Photothermal Resonant Infrared Mechanical Analysis) uses chemistry-selective infrared heating in AFM-IR to probe thermomechanical transitions of individual phases in polymer blends, rather than heating the whole sample. PRIMA-nDMA adds nanoscale dynamic mechanical analysis to resolve the viscoelastic response of each phase, in collaboration with NIST, Bruker and the University of Maryland.</p>
-        <p>The next step is to turn these methods into infrastructure for polymer discovery. A hyphenated AFM platform will combine localized heating, nanomechanics, viscoelastic mapping and electrical readout on the same sample under operando conditions. It yields relatively few data points, but each one is high-resolution and mechanistic. Faster surrogate measurements, such as optical pump-probe or rapid thermal screening on multi-sample arrays, will cover broad processing parameter sweeps at lower resolution.</p>
-        <p>A shared machine learning platform fuses the two data streams and uses active learning to decide which samples deserve the slower, detailed measurement. The result should be open datasets of real polymers, including imperfect and failed materials, which predictive models currently lack. This builds on quantitative temperature calibration of PRIMA with NIST, and on earlier development of a laser-coupled AFM for dynamic polymer networks at QUT.</p>
-        <ul class="key-papers">
-          <li><a href="https://doi.org/10.1002/smll.202514518">PRIMA: Localized Thermomechanical Measurements of Polymers and Blends</a>, <em>Small</em> 2026</li>
-          <li><a href="https://doi.org/10.26434/chemrxiv.15000735/v4">Spatially-Resolved Viscoelastic Response with AFM-IR</a>, <em>ChemRxiv</em> 2026</li>
+          <li><a href="https://www.cell.com/star-protocols/fulltext/S2666-1667(25)00215-1">A Guide for Nanomechanical Characterization of Soft Matter via AFM: From Mode Selection to Data Reporting</a>, <em>STAR Protoc.</em> 2025</li>
+          <li><a href="https://doi.org/10.1002/adma.201706321">Polymer on Top: Current Limits and Future Perspectives of Quantitatively Evaluating Surface Grafting</a>, <em>Adv. Mater.</em> 2018</li>
+          <li><a href="https://doi.org/10.1126/science.adh0619">Autonomous Alignment and Healing in Multilayer Soft Electronics Using Immiscible Dynamic Polymers</a>, <em>Science</em> 2023</li>
         </ul>
       </div>
     </div>
@@ -102,23 +82,23 @@ description: "Research of Lukas F. Michalek: polymer surface chemistry, soft ele
     <div class="split">
       <div>
         <h2 class="mt-0">Approach</h2>
-        <p class="prose-body" style="color:var(--muted-strong); max-width:66ch;">The four threads share one goal: measuring polymers at the length scales where they are heterogeneous, and under the conditions in which they are processed and used. In practice that means choosing the measurement for the question, checking it against independent methods, and reporting data so that others can reuse it.</p>
+        <p class="prose-body" style="color:var(--muted-strong); max-width:66ch;">The three parts share one object, the few tens of nanometres around a polymer interface, one materials library, and one data standard. In practice that means choosing the measurement for the question, checking it against an independent method, making specimens whose answer is known before they are measured, and reporting data so that others can reuse it.</p>
         <div class="approach-grid" style="margin-top:28px;">
           <div class="course">
             <h3>Atomic force microscopy</h3>
-            <p>PeakForce QNM, multifrequency and force spectroscopy for quantitative nanomechanics.</p>
+            <p>PeakForce QNM, multifrequency and force spectroscopy for quantitative nanomechanics, and tip-based nanomachining for subsurface access.</p>
           </div>
           <div class="course">
             <h3>AFM-IR and nanoscale IR</h3>
-            <p>Contact and resonance-enhanced AFM-IR, PRIMA and PRIMA-nDMA for correlated chemistry and mechanics.</p>
+            <p>Contact and resonance-enhanced AFM-IR, PRIMA and PRIMA-nDMA for correlated chemistry, mechanics and transitions.</p>
           </div>
           <div class="course">
             <h3>Surface and polymer chemistry</h3>
-            <p>Grafting, photochemistry and photoresists, with surface analysis and neutron reflectometry.</p>
+            <p>Grafting, photochemistry and photoresists, with surface analysis, QCM-D and neutron reflectometry.</p>
           </div>
           <div class="course">
             <h3>Data and modeling</h3>
-            <p>Python analysis pipelines, calibration and artifact correction, and numerical transport models.</p>
+            <p>Python analysis pipelines, calibration and artifact correction, numerical transport models and multi-fidelity surrogate models.</p>
           </div>
         </div>
       </div>
